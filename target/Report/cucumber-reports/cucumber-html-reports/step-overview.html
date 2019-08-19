@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/reporting.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber-JVM Reports  - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-JVM Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+        <li role="presentation" ><a href="failures-overview.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="build-info">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>Project Name</td>
+                          <td>1</td>
+                        <td>19 Aug 2019, 13:03</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div id="report-lead" class="container-fluid>
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <h2>Steps Statistics</h2>
+              <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+          </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+              <table id="tablesorter" class="stats-table table-hover">
+
+          <thead>
+            <tr class="header">
+              <th>Implementation</th>
+              <th>Occurrences</th>
+              <th>Duration</th>
+              <th>Average</th>
+              <th>Ratio</th>
+            </tr>
+          </thead>
+
+          <tbody>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Free_User_14.user_click_on_Download_button_to_download_the_product_xiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="4088003300">4s 088ms</td>
+                <td class="duration" data-value="4088003300">4s 088ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Free_User_14.user_is_already_on_PDP_Page_MD_xiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="3985950700">3s 985ms</td>
+                <td class="duration" data-value="3985950700">3s 985ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Free_User_14.user_is_redirected_to_Login_page_xiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="24000">000ms</td>
+                <td class="duration" data-value="24000">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Free_User_14.user_is_reedirected_to_same_pdp_page_and_download_the_product_xiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="7337807600">7s 337ms</td>
+                <td class="duration" data-value="7337807600">7s 337ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Free_User_14.user_login_with_correct_details_xiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="15926922900">15s 926ms</td>
+                <td class="duration" data-value="15926922900">15s 926ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Free_User_14.user_logout_from_website_xiv()</td>
+                <td>1</td>
+                <td class="duration" data-value="13417458800">13s 417ms</td>
+                <td class="duration" data-value="13417458800">13s 417ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_click_on_Download_button_to_download_the_product_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4135738600">4s 135ms</td>
+                <td class="duration" data-value="4135738600">4s 135ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_download_the_product_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="6717000100">6s 717ms</td>
+                <td class="duration" data-value="6717000100">6s 717ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_is_already_on_PDP_Page_MD_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4768520900">4s 768ms</td>
+                <td class="duration" data-value="4768520900">4s 768ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_is_redirected_to_Login_page_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="25200">000ms</td>
+                <td class="duration" data-value="25200">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_login_with_correct_details_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="16303377000">16s 303ms</td>
+                <td class="duration" data-value="16303377000">16s 303ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_logout_from_website_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="12787765200">12s 787ms</td>
+                <td class="duration" data-value="12787765200">12s 787ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Correct_Data_Paid_User_8.user_will_be_redirected_to_same_pdp_page_viii()</td>
+                <td>1</td>
+                <td class="duration" data-value="24400">000ms</td>
+                <td class="duration" data-value="24400">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.error_message_is_displayed_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="8130101500">8s 130ms</td>
+                <td class="duration" data-value="8130101500">8s 130ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_click_on_Download_button_to_download_the_product_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4093008500">4s 093ms</td>
+                <td class="duration" data-value="4093008500">4s 093ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_enter_incorrect_details_to_login_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="13284204600">13s 284ms</td>
+                <td class="duration" data-value="13284204600">13s 284ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_already_on_PDP_Page_NA_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="11448823300">11s 448ms</td>
+                <td class="duration" data-value="11448823300">11s 448ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_redirected_to_Login_page_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="19300">000ms</td>
+                <td class="duration" data-value="19300">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_reedirected_to_pricing_page_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="22500">000ms</td>
+                <td class="duration" data-value="22500">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_login_with_correct_details_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="15681885200">15s 681ms</td>
+                <td class="duration" data-value="15681885200">15s 681ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Free_User_13.user_logout_from_website_xiii()</td>
+                <td>1</td>
+                <td class="duration" data-value="13298360900">13s 298ms</td>
+                <td class="duration" data-value="13298360900">13s 298ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.error_message_is_displayed_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="9719769800">9s 719ms</td>
+                <td class="duration" data-value="9719769800">9s 719ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_click_on_Download_button_to_download_the_product_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4084667700">4s 084ms</td>
+                <td class="duration" data-value="4084667700">4s 084ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_download_the_product_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="5321459000">5s 321ms</td>
+                <td class="duration" data-value="5321459000">5s 321ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_enter_incorrect_details_to_login_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="12929435300">12s 929ms</td>
+                <td class="duration" data-value="12929435300">12s 929ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_is_already_on_PDP_Page_MD_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="5819590100">5s 819ms</td>
+                <td class="duration" data-value="5819590100">5s 819ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_is_redirected_to_Login_page_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="26100">000ms</td>
+                <td class="duration" data-value="26100">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_login_with_correct_details_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="17400528200">17s 400ms</td>
+                <td class="duration" data-value="17400528200">17s 400ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_logout_from_website_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="13786952700">13s 786ms</td>
+                <td class="duration" data-value="13786952700">13s 786ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Login_Incorrect_Data_Paid_User_7.user_will_be_redirected_to_same_pdp_page_vii()</td>
+                <td>1</td>
+                <td class="duration" data-value="2035953900">2s 035ms</td>
+                <td class="duration" data-value="2035953900">2s 035ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_click_on_Download_button_to_download_the_product_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4081479100">4s 081ms</td>
+                <td class="duration" data-value="4081479100">4s 081ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_delete_the_account_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="13866865600">13s 866ms</td>
+                <td class="duration" data-value="13866865600">13s 866ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_downloads_a_free_product_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="13235672600">13s 235ms</td>
+                <td class="duration" data-value="13235672600">13s 235ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_enter_new_email_and_correct_details_to_sign_up_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="32261094000">32s 261ms</td>
+                <td class="duration" data-value="32261094000">32s 261ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_is_already_on_PDP_Page_FP_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4886971300">4s 886ms</td>
+                <td class="duration" data-value="4886971300">4s 886ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="5724619400">5s 724ms</td>
+                <td class="duration" data-value="5724619400">5s 724ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Correct_Data_2.user_is_redirected_to_sign_up_page_ii()</td>
+                <td>1</td>
+                <td class="duration" data-value="6336723000">6s 336ms</td>
+                <td class="duration" data-value="6336723000">6s 336ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.error_message_is_displayed_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="24350063300">24s 350ms</td>
+                <td class="duration" data-value="24350063300">24s 350ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_click_on_Download_button_to_download_the_product_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="4130637300">4s 130ms</td>
+                <td class="duration" data-value="4130637300">4s 130ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_delete_the_account_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="19486016300">19s 486ms</td>
+                <td class="duration" data-value="19486016300">19s 486ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_downloads_a_free_product_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="14594372300">14s 594ms</td>
+                <td class="duration" data-value="14594372300">14s 594ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_enter_incorrect_details_to_sign_up_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="28873008800">28s 873ms</td>
+                <td class="duration" data-value="28873008800">28s 873ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_enter_new_email_and_correct_details_to_sign_up_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="32306505400">32s 306ms</td>
+                <td class="duration" data-value="32306505400">32s 306ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_is_already_on_PDP_Page_FP_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="7204312200">7s 204ms</td>
+                <td class="duration" data-value="7204312200">7s 204ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="6117202000">6s 117ms</td>
+                <td class="duration" data-value="6117202000">6s 117ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Email_Sign_UP_Incorrect_Data_1.user_is_redirected_to_sign_up_page_i()</td>
+                <td>1</td>
+                <td class="duration" data-value="6690630100">6s 690ms</td>
+                <td class="duration" data-value="6690630100">6s 690ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_click_on_Download_button_to_download_the_product_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="4081447400">4s 081ms</td>
+                <td class="duration" data-value="4081447400">4s 081ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_click_on_sign_in_with_facebook_button_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="22655461600">22s 655ms</td>
+                <td class="duration" data-value="22655461600">22s 655ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_download_the_product_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="6004750100">6s 004ms</td>
+                <td class="duration" data-value="6004750100">6s 004ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_is_already_on_pdp_page_FP_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="9382852300">9s 382ms</td>
+                <td class="duration" data-value="9382852300">9s 382ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_is_redirected_to_Login_page_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="23000">000ms</td>
+                <td class="duration" data-value="23000">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_logout_from_website_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="31479589100">31s 479ms</td>
+                <td class="duration" data-value="31479589100">31s 479ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Free_User_15.user_will_be_redirected_to_same_page_xv()</td>
+                <td>1</td>
+                <td class="duration" data-value="27600">000ms</td>
+                <td class="duration" data-value="27600">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_click_on_Download_button_to_download_the_product_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="4320124500">4s 320ms</td>
+                <td class="duration" data-value="4320124500">4s 320ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_click_on_sign_in_with_facebook_button_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="24319340200">24s 319ms</td>
+                <td class="duration" data-value="24319340200">24s 319ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_download_the_product_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="4095884800">4s 095ms</td>
+                <td class="duration" data-value="4095884800">4s 095ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_is_already_on_pdp_page_CD_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="5330521800">5s 330ms</td>
+                <td class="duration" data-value="5330521800">5s 330ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_is_redirected_to_Login_page_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="20200">000ms</td>
+                <td class="duration" data-value="20200">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_logout_from_website_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="15625938199">15s 625ms</td>
+                <td class="duration" data-value="15625938199">15s 625ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Login_Paid_User_9.user_will_be_redirected_to_same_page_pdpd_ix()</td>
+                <td>1</td>
+                <td class="duration" data-value="25500">000ms</td>
+                <td class="duration" data-value="25500">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Logout_10.navigate_to_the_facebook_url_x()</td>
+                <td>1</td>
+                <td class="duration" data-value="17651733700">17s 651ms</td>
+                <td class="duration" data-value="17651733700">17s 651ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_click_on_Download_button_to_download_the_product_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4078232800">4s 078ms</td>
+                <td class="duration" data-value="4078232800">4s 078ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="23803613300">23s 803ms</td>
+                <td class="duration" data-value="23803613300">23s 803ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_delete_the_account_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="38539220700">38s 539ms</td>
+                <td class="duration" data-value="38539220700">38s 539ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_download_a_free_ppt_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="5289941600">5s 289ms</td>
+                <td class="duration" data-value="5289941600">5s 289ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_go_to_free_ppts_page_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="18300">000ms</td>
+                <td class="duration" data-value="18300">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_is_already_on_pdp_page_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="4268348500">4s 268ms</td>
+                <td class="duration" data-value="4268348500">4s 268ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_is_redirected_to_pricing_page_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="28400">000ms</td>
+                <td class="duration" data-value="28400">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Facebook_Sign_UP_3.user_is_redirected_to_sign_up_page_iii()</td>
+                <td>1</td>
+                <td class="duration" data-value="20300">000ms</td>
+                <td class="duration" data-value="20300">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_click_on_Download_button_to_download_the_product_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="6086398300">6s 086ms</td>
+                <td class="duration" data-value="6086398300">6s 086ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_click_on_sign_in_with_google_button_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="25576626400">25s 576ms</td>
+                <td class="duration" data-value="25576626400">25s 576ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_download_the_product_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="10629099600">10s 629ms</td>
+                <td class="duration" data-value="10629099600">10s 629ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_is_already_on_pdp_page_FP_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="5436198900">5s 436ms</td>
+                <td class="duration" data-value="5436198900">5s 436ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_is_redirected_to_Login_page_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="19900">000ms</td>
+                <td class="duration" data-value="19900">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_logout_from_website_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="38518683900">38s 518ms</td>
+                <td class="duration" data-value="38518683900">38s 518ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Free_User_17.user_will_be_redirected_to_same_page_xvii()</td>
+                <td>1</td>
+                <td class="duration" data-value="21200">000ms</td>
+                <td class="duration" data-value="21200">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_click_on_Download_button_to_download_the_product_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="6090757301">6s 090ms</td>
+                <td class="duration" data-value="6090757301">6s 090ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="25662034500">25s 662ms</td>
+                <td class="duration" data-value="25662034500">25s 662ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_download_the_product_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="10778161200">10s 778ms</td>
+                <td class="duration" data-value="10778161200">10s 778ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_is_already_on_pdp_page_CD_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="4330002800">4s 330ms</td>
+                <td class="duration" data-value="4330002800">4s 330ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_is_redirected_to_Login_page_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="19601">000ms</td>
+                <td class="duration" data-value="19601">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_logout_from_website_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="17655150900">17s 655ms</td>
+                <td class="duration" data-value="17655150900">17s 655ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Login_Paid_User_11.user_will_be_redirected_to_same_page_pdpd_xi()</td>
+                <td>1</td>
+                <td class="duration" data-value="21800">000ms</td>
+                <td class="duration" data-value="21800">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Logout_12.navigate_to_the_gmail_url_xii()</td>
+                <td>1</td>
+                <td class="duration" data-value="40887170900">40s 887ms</td>
+                <td class="duration" data-value="40887170900">40s 887ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_click_on_Download_button_to_download_the_product_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="4079926400">4s 079ms</td>
+                <td class="duration" data-value="4079926400">4s 079ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_click_on_sign_in_with_google_button_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="36105627500">36s 105ms</td>
+                <td class="duration" data-value="36105627500">36s 105ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_delete_the_account_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="41990818100">41s 990ms</td>
+                <td class="duration" data-value="41990818100">41s 990ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_download_a_free_ppt_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="14418857800">14s 418ms</td>
+                <td class="duration" data-value="14418857800">14s 418ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_go_to_free_ppts_page_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="4999746500">4s 999ms</td>
+                <td class="duration" data-value="4999746500">4s 999ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_is_already_on_pdp_page_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="5318190000">5s 318ms</td>
+                <td class="duration" data-value="5318190000">5s 318ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_is_redirected_to_pricing_page_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="25700">000ms</td>
+                <td class="duration" data-value="25700">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                          <tr>
+                <td class="location">pdp_Gmail_Sign_UP_5.user_is_redirected_to_sign_up_page_v()</td>
+                <td>1</td>
+                <td class="duration" data-value="21300">000ms</td>
+                <td class="duration" data-value="21300">000ms</td>
+                <td class="passed">100.00%</td>
+              </tr>
+                      </tbody>
+
+          <tfoot class="total">
+            <tr>
+              <td>92</td>
+              <td>92</td>
+              <td class="duration">16m 10s 140ms</td>
+              <td class="duration">10s 545ms</td>
+              <td>Totals</td>
+            </tr>
+          </tfoot>
+
+        </table>
+          </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

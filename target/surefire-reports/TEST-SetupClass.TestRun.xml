@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="996.737" tests="106" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin"/>
+    <property name="java.vm.version" value="25.211-b12"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\slide53\eclipse-workspace\ST.Website.Script2"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\slide53\eclipse-workspace\ST.Website.Script2"/>
+    <property name="java.runtime.version" value="1.8.0_211-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_211\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\slide53\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3525458980918909287.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;C:\Users\slide53\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\slide53"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="slide53"/>
+    <property name="java.class.path" value="C:\Users\slide53\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.12.0.20190529-1915\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_211"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_211"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_211\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\slide53\eclipse-workspace\ST.Website.Script2\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given user is already on PDP Page FP i" classname="Scenario: Email Sign UP Incorrect Data" time="0.002"/>
+  <testcase name="Then User click on Download button to download the product i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then user is redirected to sign up page i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then user enter incorrect details to sign up i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then error message is displayed i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then user enter new email and correct details to sign up i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then user is redirected to pricing page And then user navigates to free ppt page i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then user downloads a free product i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Then user delete the account i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Scenario: Email Sign UP Incorrect Data" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
+  <testcase name="Given user is already on PDP Page FP ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Then User click on Download button to download the product ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Then user is redirected to sign up page ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Then user enter new email and correct details to sign up ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Then user is redirected to pricing page And then user navigates to free ppt page ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Then user downloads a free product ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Then user delete the account ii" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Scenario: PDP Email Sign UP Correct Data" classname="Scenario: PDP Email Sign UP Correct Data" time="0"/>
+  <testcase name="Given user is already on pdp page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then User click on Download button to download the product iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user is redirected to sign up page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then User click on sign in with facebook button iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user is redirected to pricing page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user go to free ppts page  iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user download a free ppt  iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Then user delete the account iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Scenario: PDP Facebook Sign UP" classname="Scenario: PDP Facebook Sign UP" time="0"/>
+  <testcase name="Given user is already on pdp page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then User click on Download button to download the product v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then user is redirected to sign up page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then User click on sign in with google button v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then user is redirected to pricing page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then user go to free ppts page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then user download a free ppt v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Then user delete the account v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Scenario: PDP Gmail Sign UP" classname="Scenario: PDP Gmail Sign UP" time="0"/>
+  <testcase name="Given user is already on PDP Page MD vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then User click on Download button to download the product vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0.003"/>
+  <testcase name="Then user is redirected to Login page vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then user enter incorrect details to login vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then error message is displayed vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then user login with correct details vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then user will be redirected to same pdp page vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then user download the product vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Then user logout from website vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Scenario: PDP Email Login Incorrect Data Paid User" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
+  <testcase name="Given user is already on PDP Page MD viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Then User click on Download button to download the product viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Then user is redirected to Login page viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Then user login with correct details viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Then user will be redirected to same pdp page viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0.001"/>
+  <testcase name="Then user download the product viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Then user logout from website viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Scenario: PDP Email Login Correct Data Paid User" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
+  <testcase name="Given user is already on pdp page CD ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Then User click on Download button to download the product ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Then user is redirected to Login page ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Then User click on sign in with facebook button ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Then user will be redirected to same page pdpd ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Then user download the product ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Then user logout from website ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Scenario: PDP Facebook Login Paid User" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
+  <testcase name="Given navigate to the facebook url x" classname="Scenario: Facebook Logout" time="0"/>
+  <testcase name="Scenario: Facebook Logout" classname="Scenario: Facebook Logout" time="0"/>
+  <testcase name="Given user is already on pdp page CD xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then User click on Download button to download the product xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user is redirected to Login page xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then User click on sign in with google button xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user will be redirected to same page pdpd xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user download the product xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Then user logout from website xi" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Scenario: PDP Gmail Login Paid User" classname="Scenario: PDP Gmail Login Paid User" time="0"/>
+  <testcase name="Given navigate to the gmail url xii" classname="Scenario: Gmail Logout" time="0"/>
+  <testcase name="Scenario: Gmail Logout" classname="Scenario: Gmail Logout" time="0"/>
+  <testcase name="Given user is already on PDP Page NA xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then User click on Download button to download the product xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then user is redirected to Login page xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then user enter incorrect details to login xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then error message is displayed xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then user login with correct details xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then user is reedirected to pricing page xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Then user logout from website xiii" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Scenario: PDP Email Login Incorrect Data Free User" classname="Scenario: PDP Email Login Incorrect Data Free User" time="0"/>
+  <testcase name="Given user is already on PDP Page MD xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Then User click on Download button to download the product xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Then user is redirected to Login page xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Then user login with correct details xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Then user is reedirected to same pdp page and download the product xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Then user logout from website xiv" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Scenario: PDP Email Login Correct Data Free User" classname="Scenario: PDP Email Login Correct Data Free User" time="0"/>
+  <testcase name="Given user is already on pdp page FP xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Then User click on Download button to download the product xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Then user is redirected to Login page xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Then User click on sign in with facebook button xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Then user will be redirected to same page  xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Then user download the product xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Then user logout from website xv" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Scenario: PDP Facebook Login Free User" classname="Scenario: PDP Facebook Login Free User" time="0"/>
+  <testcase name="Given user is already on pdp page FP xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Then User click on Download button to download the product xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Then user is redirected to Login page xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Then User click on sign in with google button xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Then user will be redirected to same page  xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Then user download the product xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Then user logout from website xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+  <testcase name="Scenario: PDP Gmail Login Free User" classname="Scenario: PDP Gmail Login Free User" time="0"/>
+</testsuite>

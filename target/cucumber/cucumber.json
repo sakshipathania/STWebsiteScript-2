@@ -1,0 +1,1470 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Email Sign UP Incorrect Data",
+        "description": "",
+        "id": "email-sign-up-incorrect-data;email-sign-up-incorrect-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7204312200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on PDP Page FP i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_is_already_on_PDP_Page_FP_i()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4130637300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_click_on_Download_button_to_download_the_product_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6690630100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to sign up page i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_is_redirected_to_sign_up_page_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28873008800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter incorrect details to sign up i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_enter_incorrect_details_to_sign_up_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24350063300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "error message is displayed i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.error_message_is_displayed_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32306505400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter new email and correct details to sign up i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_enter_new_email_and_correct_details_to_sign_up_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6117202000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is redirected to pricing page And then user navigates to free ppt page i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14594372300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user downloads a free product i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_downloads_a_free_product_i()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19486016300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user delete the account i",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Incorrect_Data_1.user_delete_the_account_i()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Email Sign UP Incorrect Data",
+    "description": "",
+    "id": "email-sign-up-incorrect-data",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/a1.0_PDP_Email_Sign_UP_Incorrect_Data_1.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@1.0_PDP_Email_Sign_UP_Incorrect_Data_1"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Email Sign UP Correct Data",
+        "description": "",
+        "id": "pdp-email-sign-up-correct-data;pdp-email-sign-up-correct-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4886971300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on PDP Page FP ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_is_already_on_PDP_Page_FP_ii()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4081479100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_click_on_Download_button_to_download_the_product_ii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6336723000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to sign up page ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_is_redirected_to_sign_up_page_ii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32261094000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter new email and correct details to sign up ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_enter_new_email_and_correct_details_to_sign_up_ii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5724619400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to pricing page And then user navigates to free ppt page ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_ii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13235672600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user downloads a free product ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_downloads_a_free_product_ii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13866865600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user delete the account ii",
+            "match": {
+              "location": "pdp_Email_Sign_UP_Correct_Data_2.user_delete_the_account_ii()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Email Sign UP Correct Data",
+    "description": "",
+    "id": "pdp-email-sign-up-correct-data",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/b1.1_PDP_Email_Sign_UP_Correct_Data_2.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@1.1_PDP_Email_Sign_UP_Correct_Data_2"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Facebook Sign UP",
+        "description": "",
+        "id": "pdp-facebook-sign-up;pdp-facebook-sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4268348500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on pdp page iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_is_already_on_pdp_page_iii()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4078232800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_click_on_Download_button_to_download_the_product_iii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to sign up page iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_is_redirected_to_sign_up_page_iii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23803613300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on sign in with facebook button iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_click_on_sign_in_with_facebook_button_iii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 28400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to pricing page iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_is_redirected_to_pricing_page_iii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user go to free ppts page  iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_go_to_free_ppts_page_iii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5289941600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user download a free ppt  iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_download_a_free_ppt_iii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38539220700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user delete the account iii",
+            "match": {
+              "location": "pdp_Facebook_Sign_UP_3.user_delete_the_account_iii()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Facebook Sign UP",
+    "description": "",
+    "id": "pdp-facebook-sign-up",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/c2.1_PDP_Facebook_Sign_UP_3.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@2.1_PDP_Facebook_Sign_UP_3"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Gmail Sign UP",
+        "description": "",
+        "id": "pdp-gmail-sign-up;pdp-gmail-sign-up",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5318190000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on pdp page v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_is_already_on_pdp_page_v()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4079926400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_click_on_Download_button_to_download_the_product_v()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to sign up page v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_is_redirected_to_sign_up_page_v()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 36105627500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on sign in with google button v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_click_on_sign_in_with_google_button_v()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is redirected to pricing page v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_is_redirected_to_pricing_page_v()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4999746500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user go to free ppts page v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_go_to_free_ppts_page_v()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 14418857800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user download a free ppt v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_download_a_free_ppt_v()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41990818100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user delete the account v",
+            "match": {
+              "location": "pdp_Gmail_Sign_UP_5.user_delete_the_account_v()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Gmail Sign UP",
+    "description": "",
+    "id": "pdp-gmail-sign-up",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/e2.2_PDP_Gmail_Sign_UP_5.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@2.2_PDP_Gmail_Sign_UP_5"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Email Login Incorrect Data Paid User",
+        "description": "",
+        "id": "pdp-email-login-incorrect-data-paid-user;pdp-email-login-incorrect-data-paid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5819590100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on PDP Page MD vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_is_already_on_PDP_Page_MD_vii()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4084667700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_click_on_Download_button_to_download_the_product_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 26100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_is_redirected_to_Login_page_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12929435300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter incorrect details to login vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_enter_incorrect_details_to_login_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9719769800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "error message is displayed vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.error_message_is_displayed_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17400528200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user login with correct details vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_login_with_correct_details_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2035953900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user will be redirected to same pdp page vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_will_be_redirected_to_same_pdp_page_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5321459000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user download the product vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_download_the_product_vii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13786952700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user logout from website vii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Paid_User_7.user_logout_from_website_vii()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Email Login Incorrect Data Paid User",
+    "description": "",
+    "id": "pdp-email-login-incorrect-data-paid-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/g3.1_PDP_Email_Login_Incorrect_Data_Paid_User_7.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@3.1_PDP_Email_Login_Incorrect_Data_Paid_User_7"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Email Login Correct Data Paid User",
+        "description": "",
+        "id": "pdp-email-login-correct-data-paid-user;pdp-email-login-correct-data-paid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4768520900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on PDP Page MD viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_is_already_on_PDP_Page_MD_viii()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4135738600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_click_on_Download_button_to_download_the_product_viii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_is_redirected_to_Login_page_viii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16303377000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login with correct details viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_login_with_correct_details_viii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will be redirected to same pdp page viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_will_be_redirected_to_same_pdp_page_viii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6717000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user download the product viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_download_the_product_viii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12787765200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logout from website viii",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Paid_User_8.user_logout_from_website_viii()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Email Login Correct Data Paid User",
+    "description": "",
+    "id": "pdp-email-login-correct-data-paid-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/h3.2_PDP_Email_Login_Correct_Data_Paid_User_8.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@3.2_PDP_Email_Login_Correct_Data_Paid_User_8"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Facebook Login Paid User",
+        "description": "",
+        "id": "pdp-facebook-login-paid-user;pdp-facebook-login-paid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5330521800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on pdp page CD ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_is_already_on_pdp_page_CD_ix()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4320124500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_click_on_Download_button_to_download_the_product_ix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_is_redirected_to_Login_page_ix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24319340200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on sign in with facebook button ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_click_on_sign_in_with_facebook_button_ix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will be redirected to same page pdpd ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_will_be_redirected_to_same_page_pdpd_ix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4095884800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user download the product ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_download_the_product_ix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15625938199,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logout from website ix",
+            "match": {
+              "location": "pdp_Facebook_Login_Paid_User_9.user_logout_from_website_ix()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Facebook Login Paid User",
+    "description": "",
+    "id": "pdp-facebook-login-paid-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/i4.1_PDP_Facebook_Login_Paid_User_9.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@4.1_PDP_Facebook_Login_Paid_User_9"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Facebook Logout",
+        "description": "",
+        "id": "facebook-logout;facebook-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17651733700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to the facebook url x",
+            "match": {
+              "location": "pdp_Facebook_Logout_10.navigate_to_the_facebook_url_x()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Facebook Logout",
+    "description": "",
+    "id": "facebook-logout",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/j4.1.1_Facebook_Logout_10.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@4.1.1_Facebook_Logout_10"
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "PDP Gmail Login Paid User",
+        "description": "",
+        "id": "pdp-gmail-login-paid-user;pdp-gmail-login-paid-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4330002800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is already on pdp page CD xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_is_already_on_pdp_page_CD_xi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6090757301,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User click on Download button to download the product xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_click_on_Download_button_to_download_the_product_xi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19601,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is redirected to Login page xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_is_redirected_to_Login_page_xi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25662034500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on sign in with google button xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_click_on_sign_in_with_google_button_xi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user will be redirected to same page pdpd xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_will_be_redirected_to_same_page_pdpd_xi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10778161200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user download the product xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_download_the_product_xi()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 17655150900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logout from website xi",
+            "match": {
+              "location": "pdp_Gmail_Login_Paid_User_11.user_logout_from_website_xi()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Gmail Login Paid User",
+    "description": "",
+    "id": "pdp-gmail-login-paid-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/k4.2_PDP_Gmail_Login_Paid_User_11.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@4.2_PDP_Gmail_Login_Paid_User_11"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Gmail Logout",
+        "description": "",
+        "id": "gmail-logout;gmail-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40887170900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "navigate to the gmail url xii",
+            "match": {
+              "location": "pdp_Gmail_Logout_12.navigate_to_the_gmail_url_xii()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Gmail Logout",
+    "description": "",
+    "id": "gmail-logout",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/l4.2.1_Gmail_Logout_12.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@4.2.1_Gmail_Logout_12"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Email Login Incorrect Data Free User",
+        "description": "",
+        "id": "pdp-email-login-incorrect-data-free-user;pdp-email-login-incorrect-data-free-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11448823300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on PDP Page NA xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_already_on_PDP_Page_NA_xiii()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4093008500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_click_on_Download_button_to_download_the_product_xiii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_redirected_to_Login_page_xiii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13284204600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enter incorrect details to login xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_enter_incorrect_details_to_login_xiii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8130101500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "error message is displayed xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.error_message_is_displayed_xiii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15681885200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user login with correct details xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_login_with_correct_details_xiii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is reedirected to pricing page xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_is_reedirected_to_pricing_page_xiii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13298360900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user logout from website xiii",
+            "match": {
+              "location": "pdp_Email_Login_Incorrect_Data_Free_User_13.user_logout_from_website_xiii()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Email Login Incorrect Data Free User",
+    "description": "",
+    "id": "pdp-email-login-incorrect-data-free-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/m5.1_PDP_Email_Login_Incorrect_Data_Free_User_13.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@5.1_PDP_Email_Login_Incorrect_Data_Free_User_13"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Email Login Correct Data Free User",
+        "description": "",
+        "id": "pdp-email-login-correct-data-free-user;pdp-email-login-correct-data-free-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3985950700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on PDP Page MD xiv",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_is_already_on_PDP_Page_MD_xiv()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4088003300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product xiv",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_click_on_Download_button_to_download_the_product_xiv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 24000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page xiv",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_is_redirected_to_Login_page_xiv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15926922900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user login with correct details xiv",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_login_with_correct_details_xiv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7337807600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is reedirected to same pdp page and download the product xiv",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_is_reedirected_to_same_pdp_page_and_download_the_product_xiv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13417458800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user logout from website xiv",
+            "match": {
+              "location": "pdp_Email_Login_Correct_Data_Free_User_14.user_logout_from_website_xiv()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Email Login Correct Data Free User",
+    "description": "",
+    "id": "pdp-email-login-correct-data-free-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/n5.2_PDP_Email_Login_Correct_Data_Free_User_14.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@5.2_PDP_Email_Login_Correct_Data_Free_User_14"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Facebook Login Free User",
+        "description": "",
+        "id": "pdp-facebook-login-free-user;pdp-facebook-login-free-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9382852300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on pdp page FP xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_is_already_on_pdp_page_FP_xv()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4081447400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_click_on_Download_button_to_download_the_product_xv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_is_redirected_to_Login_page_xv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22655461600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on sign in with facebook button xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_click_on_sign_in_with_facebook_button_xv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 27600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will be redirected to same page  xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_will_be_redirected_to_same_page_xv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6004750100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user download the product xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_download_the_product_xv()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31479589100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logout from website xv",
+            "match": {
+              "location": "pdp_Facebook_Login_Free_User_15.user_logout_from_website_xv()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Facebook Login Free User",
+    "description": "",
+    "id": "pdp-facebook-login-free-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/o5.3_PDP_Facebook_Login_Free_User_15.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@5.3_PDP_Facebook_Login_Free_User_15"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "PDP Gmail Login Free User",
+        "description": "",
+        "id": "pdp-gmail-login-free-user;pdp-gmail-login-free-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5436198900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is already on pdp page FP xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_is_already_on_pdp_page_FP_xvii()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6086398300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User click on Download button to download the product xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_click_on_Download_button_to_download_the_product_xvii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 19900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is redirected to Login page xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_is_redirected_to_Login_page_xvii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25576626400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User click on sign in with google button xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_click_on_sign_in_with_google_button_xvii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user will be redirected to same page  xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_will_be_redirected_to_same_page_xvii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10629099600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user download the product xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_download_the_product_xvii()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 38518683900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user logout from website xvii",
+            "match": {
+              "location": "pdp_Gmail_Login_Free_User_17.user_logout_from_website_xvii()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "PDP Gmail Login Free User",
+    "description": "",
+    "id": "pdp-gmail-login-free-user",
+    "keyword": "Feature",
+    "uri": "src/test/java/Features/q5.4_PDP_Gmail_Login_Free_User_17.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@5.4_PDP_Gmail_Login_Free_User_17"
+      }
+    ]
+  }
+]
