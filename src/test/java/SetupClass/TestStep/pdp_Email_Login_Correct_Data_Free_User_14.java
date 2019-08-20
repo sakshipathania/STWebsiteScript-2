@@ -12,12 +12,13 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Email_Login_Correct_Data_Free_User_14 extends Set{
 	
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	@Given("^user is already on PDP Page MD xiv$")
 	public void user_is_already_on_PDP_Page_MD_xiv() throws Throwable {
 		
 		driver.get("https://www.slideteam.net/social-media-icons-powerpoint-presentation-slides.html");
+		Thread.sleep(3000);
 	    
 	}
 
@@ -32,7 +33,8 @@ public class pdp_Email_Login_Correct_Data_Free_User_14 extends Set{
 
 	@Then("^user is redirected to Login page xiv$")
 	public void user_is_redirected_to_Login_page_xiv() throws Throwable {
-	  
+		Thread.sleep(1000);
+
 	}
 
 	@Then("^user login with correct details xiv$")
@@ -77,6 +79,9 @@ public class pdp_Email_Login_Correct_Data_Free_User_14 extends Set{
 				Thread.sleep(2000);
 			}
 		} catch (NoSuchElementException Ext) {
+			
+			Thread.sleep(3000);
+
 
 		}
 	}

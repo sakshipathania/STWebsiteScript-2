@@ -147,7 +147,7 @@ try {
 		 Thread.sleep(3000);
 		 WebElement continue_delete = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"deleteaccount-form\"]/button[1]")));
 		 continue_delete.click();
-		 Thread.sleep(3000);
+		 Thread.sleep(9000);
 	
 		 Thread.sleep(3000);
 			driver.get("https://mail.google.com");

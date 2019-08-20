@@ -11,13 +11,14 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	@Given("^user is already on PDP Page NA xiii$")
 	public void user_is_already_on_PDP_Page_NA_xiii() throws Throwable {
 		
 		driver.get("https://www.slideteam.net/papa-johns-company-profile-overview-financials-and-statistics-from-2014-2018.html");
-	   
+		Thread.sleep(3000);
+		
 	}
 
 	@Then("^User click on Download button to download the product xiii$")
@@ -30,7 +31,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^user is redirected to Login page xiii$")
 	public void user_is_redirected_to_Login_page_xiii() throws Throwable {
-	   
+		Thread.sleep(1000);
 	}
 
 	@Then("^user enter incorrect details to login xiii$")
@@ -65,6 +66,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 		Thread.sleep(2000);
 	   
 		driver.navigate().refresh();
+		Thread.sleep(2000);
 	}
 
 	@Then("^user login with correct details xiii$")
@@ -91,6 +93,8 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 	
 	@Then("^user is reedirected to pricing page xiii$")
 	public void user_is_reedirected_to_pricing_page_xiii() throws Throwable {
+		
+		Thread.sleep(1000);
 	    
 	}
 
@@ -107,6 +111,8 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 				Thread.sleep(2000);
 			}
 		} catch (NoSuchElementException Ext) {
+			Thread.sleep(2000);
+			
 
 		}
 		

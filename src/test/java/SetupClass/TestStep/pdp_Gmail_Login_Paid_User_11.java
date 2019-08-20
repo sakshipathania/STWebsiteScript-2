@@ -50,6 +50,7 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 			try
 			{
 				WebElement another_btn=driver.findElement(By.xpath("//div[text()='Use another account']"));
+				 Thread.sleep(2000);
 				another_btn.click();
 				
 				
@@ -84,7 +85,8 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 	@Then("^user will be redirected to same page pdpd xi$")
 	public void user_will_be_redirected_to_same_page_pdpd_xi() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-	    
+		 Thread.sleep(2000);
+
 	}
 
 	@Then("^user download the product xi$")
@@ -112,7 +114,8 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 		} catch (NoSuchElementException Ext) {
 
 		}
-		
+		 Thread.sleep(2000);
+
 	}
 
 }

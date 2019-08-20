@@ -16,7 +16,7 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Email_Sign_UP_Correct_Data_2 extends Set {
 
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 
 	@Given("^user is already on PDP Page FP ii$")
 	public void user_is_already_on_PDP_Page_FP_ii() throws Throwable {

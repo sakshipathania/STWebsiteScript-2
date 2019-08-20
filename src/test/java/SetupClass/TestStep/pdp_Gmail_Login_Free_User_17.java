@@ -12,12 +12,12 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Gmail_Login_Free_User_17 extends Set {
 	
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	@Given("^user is already on pdp page FP xvii$")
 	public void user_is_already_on_pdp_page_FP_xvii() throws Throwable {
 		driver.get("https://www.slideteam.net/bar-graphs-and-pie-charts-sale-business-powerpoint-templates-themes.html");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 	}
 
 	@Then("^User click on Download button to download the product xvii$")
@@ -32,6 +32,8 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 
 	@Then("^user is redirected to Login page xvii$")
 	public void user_is_redirected_to_Login_page_xvii() throws Throwable {
+	    Thread.sleep(1000);
+
 	    
 	}
 
@@ -46,6 +48,7 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 			try
 			{
 				WebElement another_btn=driver.findElement(By.xpath("//div[text()='Use another account']"));
+			    Thread.sleep(1000);
 				another_btn.click();
 				
 				
@@ -55,9 +58,8 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 				
 			
 			}
-			Thread.sleep(2000);
-		 
-		Thread.sleep(2000);
+		
+		Thread.sleep(4000);
 		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("identifierId")));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("slidetech.qa@gmail.com");
@@ -78,6 +80,8 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 
 	@Then("^user will be redirected to same page  xvii$")
 	public void user_will_be_redirected_to_same_page_xvii() throws Throwable {
+	    Thread.sleep(1000);
+
 	  
 	}
 

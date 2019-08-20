@@ -12,7 +12,7 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Facebook_Login_Free_User_15 extends Set {
 	
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	@Given("^user is already on pdp page FP xv$")
 	public void user_is_already_on_pdp_page_FP_xv() throws Throwable {
@@ -59,11 +59,14 @@ public class pdp_Facebook_Login_Free_User_15 extends Set {
 
 	@Then("^user will be redirected to same page  xv$")
 	public void user_will_be_redirected_to_same_page_xv() throws Throwable {
-	    
+	    Thread.sleep(1000);
+
 	}
 
 	@Then("^user download the product xv$")
 	public void user_download_the_product_xv() throws Throwable {
+	    Thread.sleep(1000);
+
 		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
@@ -84,6 +87,8 @@ public class pdp_Facebook_Login_Free_User_15 extends Set {
 				Thread.sleep(2000);
 			}
 		} catch (NoSuchElementException Ext) {
+		    Thread.sleep(2000);
+
 
 		}
 		
