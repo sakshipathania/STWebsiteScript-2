@@ -75,7 +75,7 @@ public class pdp_Gmail_Sign_UP_5 extends Set{
 	    WebElement next_2 = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#passwordNext > span:nth-child(3)")));
 	    Thread.sleep(2000);
 	    next_2.click();
-	    Thread.sleep(2000);
+	    Thread.sleep(8000);
 		
 	}
 
@@ -143,6 +143,7 @@ try {
 
         Thread.sleep(3000);
 		 WebElement delete_account = driver.findElement(By.xpath("//a[contains(text(),'Delete Account')]"));
+		 Thread.sleep(1000);
 		 delete_account.click();
 		 Thread.sleep(3000);
 		 WebElement continue_delete = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"deleteaccount-form\"]/button[1]")));

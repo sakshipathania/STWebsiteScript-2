@@ -110,11 +110,12 @@ public class pdp_Email_Sign_UP_Correct_Data_2 extends Set {
 	@Then("^user is redirected to pricing page And then user navigates to free ppt page ii$")
 	public void user_is_redirected_to_pricing_page_And_then_user_navigates_to_free_ppt_page_ii() throws Throwable {
 	   
-		
-		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("li.menu-item:nth-child(2) > a:nth-child(1)")));
+		// free ppt pg
+		Thread.sleep(2000);
+		WebElement free_ppt_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(.,'Free PPTs')]")));
 		Thread.sleep(2000);
 	    free_ppt_btn.click();
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 	}
 
 	@Then("^user downloads a free product ii$")

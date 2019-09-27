@@ -8,7 +8,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = {"."},//tags= {"@2.2_PDP_Gmail_Sign_UP_5"},
+@CucumberOptions(features = {"."},//tags= {"@5.4_PDP_Gmail_Login_Free_User_17"},
 plugin= {"pretty","html:target/site/cucumber-pretty","json:target/cucumber/cucumber.json","usage:target/usage.jsonx","junit:target/cucumber.xml"})
 
 

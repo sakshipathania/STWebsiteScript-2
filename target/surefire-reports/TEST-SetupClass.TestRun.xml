@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="1,012.158" tests="106" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SetupClass.TestRun" time="969.146" tests="106" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin"/>
@@ -26,9 +26,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3479281031308883699.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\slide53\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4149157778985079631.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;C:\Users\slide53\Desktop;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_211\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_211/bin/server;C:/Program Files/Java/jre1.8.0_211/bin;C:/Program Files/Java/jre1.8.0_211/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\System32;C:\Windows;C:\Program Files\Java\jdk-12.0.1\bin;C:\Program Files\Git\cmd;C:\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Program Files\Java\jdk1.8.0_211\bin;;%SystemRoot%\system32;%SystemRoot%;%SystemRoot%\System32\Wbem;%SYSTEMROOT%\System32\WindowsPowerShell\v1.0\;%SYSTEMROOT%\System32\OpenSSH\;C:\Users\slide53\AppData\Local\GitHubDesktop\bin;%USERPROFILE%\AppData\Local\Microsoft\WindowsApps;;C:\Users\slide53\Desktop;;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -49,7 +49,7 @@
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.version" value="1.8.0_211"/>
-    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_211\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_211\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_211\lib\resources.jar;C:\Program Files\Java\jre1.8.0_211\lib\rt.jar;C:\Program Files\Java\jre1.8.0_211\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_211\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_211\lib\jce.jar;C:\Program Files\Java\jre1.8.0_211\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_211\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_211\classes"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Users\slide53\eclipse-workspace\ST.Website.Script2\EMBEDDED"/>
@@ -60,7 +60,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Given user is already on PDP Page FP i" classname="Scenario: Email Sign UP Incorrect Data" time="0.001"/>
+  <testcase name="Given user is already on PDP Page FP i" classname="Scenario: Email Sign UP Incorrect Data" time="0.003"/>
   <testcase name="Then User click on Download button to download the product i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
   <testcase name="Then user is redirected to sign up page i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
   <testcase name="Then user enter incorrect details to sign up i" classname="Scenario: Email Sign UP Incorrect Data" time="0"/>
@@ -82,7 +82,7 @@
   <testcase name="Then User click on Download button to download the product iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then user is redirected to sign up page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then User click on sign in with facebook button iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
-  <testcase name="Then user is redirected to pricing page iii" classname="Scenario: PDP Facebook Sign UP" time="0.001"/>
+  <testcase name="Then user is redirected to pricing page iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then user go to free ppts page  iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then user download a free ppt  iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
   <testcase name="Then user delete the account iii" classname="Scenario: PDP Facebook Sign UP" time="0"/>
@@ -95,7 +95,7 @@
   <testcase name="Then user go to free ppts page v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
   <testcase name="Then user download a free ppt v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
   <testcase name="Then user delete the account v" classname="Scenario: PDP Gmail Sign UP" time="0"/>
-  <testcase name="Scenario: PDP Gmail Sign UP" classname="Scenario: PDP Gmail Sign UP" time="0.001"/>
+  <testcase name="Scenario: PDP Gmail Sign UP" classname="Scenario: PDP Gmail Sign UP" time="0"/>
   <testcase name="Given user is already on PDP Page MD vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
   <testcase name="Then User click on Download button to download the product vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
   <testcase name="Then user is redirected to Login page vii" classname="Scenario: PDP Email Login Incorrect Data Paid User" time="0"/>
@@ -113,7 +113,7 @@
   <testcase name="Then user will be redirected to same pdp page viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then user download the product viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Then user logout from website viii" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
-  <testcase name="Scenario: PDP Email Login Correct Data Paid User" classname="Scenario: PDP Email Login Correct Data Paid User" time="0.005"/>
+  <testcase name="Scenario: PDP Email Login Correct Data Paid User" classname="Scenario: PDP Email Login Correct Data Paid User" time="0"/>
   <testcase name="Given user is already on pdp page CD ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then User click on Download button to download the product ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
   <testcase name="Then user is redirected to Login page ix" classname="Scenario: PDP Facebook Login Paid User" time="0"/>
@@ -163,7 +163,7 @@
   <testcase name="Then user is redirected to Login page xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
   <testcase name="Then User click on sign in with google button xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
   <testcase name="Then user will be redirected to same page  xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
-  <testcase name="Then user download the product xvii" classname="Scenario: PDP Gmail Login Free User" time="0.001"/>
+  <testcase name="Then user download the product xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
   <testcase name="Then user logout from website xvii" classname="Scenario: PDP Gmail Login Free User" time="0"/>
   <testcase name="Scenario: PDP Gmail Login Free User" classname="Scenario: PDP Gmail Login Free User" time="0"/>
 </testsuite>
