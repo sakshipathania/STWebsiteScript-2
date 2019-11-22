@@ -10,14 +10,14 @@ import SetupClass.Set;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class pdp_Facebook_Login_Free_User_15 extends Set {
+public class pdp_Facebook_Login_Paid_User_15 extends Set {
 	
 	WebDriverWait wait = new WebDriverWait(driver,50);
 	
 	@Given("^user is already on pdp page FP xv$")
 	public void user_is_already_on_pdp_page_FP_xv() throws Throwable {
 	    
-		driver.get("https://www.slideteam.net/free-silhouette-man-powerpoint-template.html");
+		driver.get("https://www.slideteam.net/adm-risk-monitoring-and-management-techniques-2018.html");
 		Thread.sleep(2000);
 	}
 
@@ -33,7 +33,7 @@ public class pdp_Facebook_Login_Free_User_15 extends Set {
 
 	@Then("^user is redirected to Login page xv$")
 	public void user_is_redirected_to_Login_page_xv() throws Throwable {
-	    
+		Thread.sleep(2000);
 	}
 
 	@Then("^User click on sign in with facebook button xv$")
@@ -45,11 +45,11 @@ public class pdp_Facebook_Login_Free_User_15 extends Set {
 		
 		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 		 Thread.sleep(2000);
-		    fb_email.sendKeys("slidetech.qa@gmail.com");
+		    fb_email.sendKeys("sumit.kumar@slidetech.in");
 		    Thread.sleep(2000);
 		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
 		    Thread.sleep(2000);
-		    fb_pass.sendKeys("himanshi@123");
+		    fb_pass.sendKeys("redhat2090");
 		    Thread.sleep(2000);
 		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.id("loginbutton")));
 		    Thread.sleep(2000);
@@ -59,7 +59,7 @@ public class pdp_Facebook_Login_Free_User_15 extends Set {
 
 	@Then("^user will be redirected to same page  xv$")
 	public void user_will_be_redirected_to_same_page_xv() throws Throwable {
-	    Thread.sleep(1000);
+	    Thread.sleep(2000);
 
 	}
 

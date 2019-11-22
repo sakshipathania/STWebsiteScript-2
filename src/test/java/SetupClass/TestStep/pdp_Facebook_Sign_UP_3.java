@@ -19,7 +19,7 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 	@Given("^user is already on pdp page iii$")
 	public void user_is_already_on_pdp_page_iii() throws Throwable {
 		
-		driver.get("https://www.slideteam.net/free-silhouette-man-powerpoint-template.html");
+		driver.get("https://www.slideteam.net/lego-bricks-with-different-structure-and-colours.html");
 		Thread.sleep(2000);
 	    
 	}
@@ -37,7 +37,7 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 
 	@Then("^user is redirected to sign up page iii$")
 	public void user_is_redirected_to_sign_up_page_iii() throws Throwable {
-	    
+	    Thread.sleep(3000);
 	}
 
 	@Then("^User click on sign in with facebook button iii$")
@@ -77,14 +77,17 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
-		driver.get("https://www.slideteam.net/");
+		driver.navigate().refresh();
+		Thread.sleep(2000);
 	}
 
 	@Then("^user delete the account iii$")
 	public void user_delete_the_account_iii() throws Throwable {
 	  
 
-		 driver.findElement(By.cssSelector("ul.header > li:nth-child(1) > a:nth-child(1)")).click();
+		 WebElement my_account = driver.findElement(By.xpath("//a[contains(.,'My Account')]"));
+		Thread.sleep(2300);
+		my_account.click();
 		 Thread.sleep(3000);
 		 
 		

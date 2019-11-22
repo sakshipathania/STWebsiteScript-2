@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="938.197877">
-<testcase classname="Email Sign UP Incorrect Data" name="Email Sign UP Incorrect Data" time="142.826964">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="14" time="978.558644">
+<testcase classname="Email Sign UP Incorrect Data" name="Email Sign UP Incorrect Data" time="151.87399">
 <system-out><![CDATA[Given user is already on PDP Page FP i......................................passed
 Then User click on Download button to download the product i................passed
 Then user is redirected to sign up page i...................................passed
@@ -12,7 +12,7 @@ Then user downloads a free product i........................................pass
 Then user delete the account i..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Sign UP Correct Data" name="PDP Email Sign UP Correct Data" time="77.616254">
+<testcase classname="PDP Email Sign UP Correct Data" name="PDP Email Sign UP Correct Data" time="91.26919">
 <system-out><![CDATA[Given user is already on PDP Page FP ii.....................................passed
 Then User click on Download button to download the product ii...............passed
 Then user is redirected to sign up page ii..................................passed
@@ -22,7 +22,7 @@ Then user downloads a free product ii.......................................pass
 Then user delete the account ii.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Facebook Sign UP" name="PDP Facebook Sign UP" time="74.282741">
+<testcase classname="PDP Facebook Sign UP" name="PDP Facebook Sign UP" time="86.292434">
 <system-out><![CDATA[Given user is already on pdp page iii.......................................passed
 Then User click on Download button to download the product iii..............passed
 Then user is redirected to sign up page iii.................................passed
@@ -33,7 +33,7 @@ Then user download a free ppt  iii..........................................pass
 Then user delete the account iii............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Gmail Sign UP" name="PDP Gmail Sign UP" time="114.668329">
+<testcase classname="PDP Gmail Sign UP" name="PDP Gmail Sign UP" time="123.084">
 <system-out><![CDATA[Given user is already on pdp page v.........................................passed
 Then User click on Download button to download the product v................passed
 Then user is redirected to sign up page v...................................passed
@@ -44,7 +44,7 @@ Then user download a free ppt v.............................................pass
 Then user delete the account v..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Incorrect Data Paid User" name="PDP Email Login Incorrect Data Paid User" time="65.886722">
+<testcase classname="PDP Email Login Incorrect Data Paid User" name="PDP Email Login Incorrect Data Paid User" time="64.99586">
 <system-out><![CDATA[Given user is already on PDP Page MD vii....................................passed
 Then User click on Download button to download the product vii..............passed
 Then user is redirected to Login page vii...................................passed
@@ -56,7 +56,7 @@ Then user download the product vii..........................................pass
 Then user logout from website vii...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Correct Data Paid User" name="PDP Email Login Correct Data Paid User" time="43.79145">
+<testcase classname="PDP Email Login Correct Data Paid User" name="PDP Email Login Correct Data Paid User" time="42.735583">
 <system-out><![CDATA[Given user is already on PDP Page MD viii...................................passed
 Then User click on Download button to download the product viii.............passed
 Then user is redirected to Login page viii..................................passed
@@ -66,7 +66,7 @@ Then user download the product viii.........................................pass
 Then user logout from website viii..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Facebook Login Paid User" name="PDP Facebook Login Paid User" time="47.412786">
+<testcase classname="PDP Facebook Login Paid User" name="PDP Facebook Login Paid User" time="49.525082">
 <system-out><![CDATA[Given user is already on pdp page CD ix.....................................passed
 Then User click on Download button to download the product ix...............passed
 Then user is redirected to Login page ix....................................passed
@@ -76,11 +76,11 @@ Then user download the product ix...........................................pass
 Then user logout from website ix............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Facebook Logout" name="Facebook Logout" time="18.221713">
+<testcase classname="Facebook Logout" name="Facebook Logout" time="20.527505">
 <system-out><![CDATA[Given navigate to the facebook url x........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Gmail Login Paid User" name="PDP Gmail Login Paid User" time="64.168233">
+<testcase classname="PDP Gmail Login Paid User" name="PDP Gmail Login Paid User" time="60.722142">
 <system-out><![CDATA[Given user is already on pdp page CD xi.....................................passed
 Then User click on Download button to download the product xi...............passed
 Then user is redirected to Login page xi....................................passed
@@ -90,11 +90,11 @@ Then user download the product xi...........................................pass
 Then user logout from website xi............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Gmail Logout" name="Gmail Logout" time="23.890332">
+<testcase classname="Gmail Logout" name="Gmail Logout" time="23.620117">
 <system-out><![CDATA[Given navigate to the gmail url xii.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Incorrect Data Free User" name="PDP Email Login Incorrect Data Free User" time="62.298367">
+<testcase classname="PDP Email Login Incorrect Data Free User" name="PDP Email Login Incorrect Data Free User" time="59.934755">
 <system-out><![CDATA[Given user is already on PDP Page NA xiii...................................passed
 Then User click on Download button to download the product xiii.............passed
 Then user is redirected to Login page xiii..................................passed
@@ -105,7 +105,7 @@ Then user is reedirected to pricing page xiii...............................pass
 Then user logout from website xiii..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Email Login Correct Data Free User" name="PDP Email Login Correct Data Free User" time="45.94078">
+<testcase classname="PDP Email Login Correct Data Free User" name="PDP Email Login Correct Data Free User" time="41.810044">
 <system-out><![CDATA[Given user is already on PDP Page MD xiv....................................passed
 Then User click on Download button to download the product xiv..............passed
 Then user is redirected to Login page xiv...................................passed
@@ -114,7 +114,7 @@ Then user is reedirected to same pdp page and download the product xiv......pass
 Then user logout from website xiv...........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Facebook Login Free User" name="PDP Facebook Login Free User" time="68.874358">
+<testcase classname="PDP Facebook Login Free User" name="PDP Facebook Login Free User" time="74.124166">
 <system-out><![CDATA[Given user is already on pdp page FP xv.....................................passed
 Then User click on Download button to download the product xv...............passed
 Then user is redirected to Login page xv....................................passed
@@ -124,7 +124,7 @@ Then user download the product xv...........................................pass
 Then user logout from website xv............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="PDP Gmail Login Free User" name="PDP Gmail Login Free User" time="88.318848">
+<testcase classname="PDP Gmail Login Free User" name="PDP Gmail Login Free User" time="88.043776">
 <system-out><![CDATA[Given user is already on pdp page FP xvii...................................passed
 Then User click on Download button to download the product xvii.............passed
 Then user is redirected to Login page xvii..................................passed

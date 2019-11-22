@@ -32,7 +32,7 @@ public class pdp_Facebook_Login_Paid_User_9 extends Set {
 
 	@Then("^user is redirected to Login page ix$")
 	public void user_is_redirected_to_Login_page_ix() throws Throwable {
-	    
+		Thread.sleep(2000);
 	}
 
 	@Then("^User click on sign in with facebook button ix$")
