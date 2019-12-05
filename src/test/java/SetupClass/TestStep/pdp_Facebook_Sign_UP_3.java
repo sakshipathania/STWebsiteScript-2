@@ -42,8 +42,13 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 
 	@Then("^User click on sign in with facebook button iii$")
 	public void user_click_on_sign_in_with_facebook_button_iii() throws Throwable {
-		driver.findElement(By.xpath("//a[contains(text(),'Sign in with Facebook')]")).click();
-		Thread.sleep(2000);
+		//driver.findElement(By.xpath("//a[contains(text(),'Sign in with Facebook')]")).click();
+		
+		 WebElement fb_login_btn_home_page = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']")));
+		 Thread.sleep(2000);
+		 fb_login_btn_home_page.click();
+		 
+		Thread.sleep(3200);
 		log.info("It's opening the website URL");
 		
 		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
@@ -53,7 +58,7 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
 		    Thread.sleep(2000);
 		    fb_pass.sendKeys("himanshi@123");
-		    Thread.sleep(2000);
+		    Thread.sleep(3000);
 		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.id("loginbutton")));
 		    Thread.sleep(2000);
 		    fb_login_btn.click();
@@ -62,12 +67,12 @@ public class pdp_Facebook_Sign_UP_3 extends Set {
 
 	@Then("^user is redirected to pricing page iii$")
 	public void user_is_redirected_to_pricing_page_iii() throws Throwable {
-	  
+	  Thread.sleep(1000);
 	}
 
 	@Then("^user go to free ppts page  iii$")
 	public void user_go_to_free_ppts_page_iii() throws Throwable {
-	   
+		Thread.sleep(1000);
 	}
 
 	@Then("^user download a free ppt  iii$")

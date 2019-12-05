@@ -26,7 +26,7 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 	@Then("^User click on Download button to download the product xi$")
 	public void user_click_on_Download_button_to_download_the_product_xi() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='clicking']")));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(4000);
@@ -42,11 +42,11 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 	@Then("^User click on sign in with google button xi$")
 	public void user_click_on_sign_in_with_google_button_xi() throws Throwable {
 	  
-		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Sign in with Google')]")));
-		    Thread.sleep(2000);
+		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-google social-btn']")));
+		    Thread.sleep(2800);
 		 gmail_btn.click();
 		
-		 Thread.sleep(2000);
+		 Thread.sleep(3000);
 			try
 			{
 				WebElement another_btn=driver.findElement(By.xpath("//div[text()='Use another account']"));
@@ -60,9 +60,9 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 				
 			
 			}
-			Thread.sleep(2000);
+			
 		 
-		Thread.sleep(2000);
+		Thread.sleep(4500);
 		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("identifierId")));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("himanshi.sharma@slidetech.in");
@@ -86,6 +86,7 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 	public void user_will_be_redirected_to_same_page_pdpd_xi() throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 		 Thread.sleep(2000);
+		 driver.navigate().refresh();
 
 	}
 

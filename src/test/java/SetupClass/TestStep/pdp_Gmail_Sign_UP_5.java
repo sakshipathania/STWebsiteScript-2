@@ -35,12 +35,13 @@ public class pdp_Gmail_Sign_UP_5 extends Set{
 
 	@Then("^user is redirected to sign up page v$")
 	public void user_is_redirected_to_sign_up_page_v() throws Throwable {
-	    
+	    Thread.sleep(6000);
 	}
 
 	@Then("^User click on sign in with google button v$")
 	public void user_click_on_sign_in_with_google_button_v() throws Throwable {
-		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Sign in with Google')]")));
+		
+		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-google social-btn']")));
 		    Thread.sleep(2000);
 		 gmail_btn.click();
 		
@@ -57,9 +58,9 @@ public class pdp_Gmail_Sign_UP_5 extends Set{
 			
 		
 		}
-		Thread.sleep(2000);
+	
 		
-		Thread.sleep(2000);
+		Thread.sleep(4000);
 		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("identifierId")));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("slidetech.qa@gmail.com");
@@ -102,14 +103,14 @@ public class pdp_Gmail_Sign_UP_5 extends Set{
 		driver.findElement(By.id("clicking")).click();
 		Thread.sleep(5000);
 		driver.get("https://www.slideteam.net/");
-		Thread.sleep(3000);
+		Thread.sleep(4500);
 	}
 
 	@Then("^user delete the account v$")
 	public void user_delete_the_account_v() throws Throwable {
 		
 
-		 driver.findElement(By.cssSelector("ul.header > li:nth-child(1) > a:nth-child(1)")).click();
+		 driver.findElement(By.xpath("//a[contains(text(),'My Account')]")).click();
 		 Thread.sleep(3000);
 		 
 		
@@ -155,6 +156,8 @@ try {
 			Thread.sleep(5000);
 		driver.manage().deleteAllCookies();
 		Thread.sleep(8000);
+		driver.get("https://www.slideteam.net/");
+		Thread.sleep(5000);
 	}
 	   
 

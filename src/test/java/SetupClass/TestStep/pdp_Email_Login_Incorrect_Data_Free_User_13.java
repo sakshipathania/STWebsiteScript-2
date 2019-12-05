@@ -23,6 +23,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^User click on Download button to download the product xiii$")
 	public void user_click_on_Download_button_to_download_the_product_xiii() throws Throwable {
+		Thread.sleep(1000);
 		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();

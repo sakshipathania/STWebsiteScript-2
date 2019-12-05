@@ -33,14 +33,16 @@ public class pdp_Facebook_Login_Paid_User_15 extends Set {
 
 	@Then("^user is redirected to Login page xv$")
 	public void user_is_redirected_to_Login_page_xv() throws Throwable {
-		Thread.sleep(2000);
+		Thread.sleep(4500);
 	}
 
 	@Then("^User click on sign in with facebook button xv$")
 	public void user_click_on_sign_in_with_facebook_button_xv() throws Throwable {
 	    
-		driver.findElement(By.xpath("//a[contains(text(),'Sign in with Facebook')]")).click();
-		Thread.sleep(2000);
+		 WebElement fb_login_link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']")));
+		 Thread.sleep(2000);
+		 fb_login_link.click();
+		Thread.sleep(3000);
 		log.info("It's opening the website URL");
 		
 		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));

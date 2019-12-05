@@ -44,7 +44,7 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 		    Thread.sleep(2000);
 		 gmail_btn.click();
 		
-		 Thread.sleep(2000);
+		 Thread.sleep(3000);
 			try
 			{
 				WebElement another_btn=driver.findElement(By.xpath("//div[text()='Use another account']"));
