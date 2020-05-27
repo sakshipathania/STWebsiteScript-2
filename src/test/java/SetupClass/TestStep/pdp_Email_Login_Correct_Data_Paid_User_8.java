@@ -40,7 +40,7 @@ public class pdp_Email_Login_Correct_Data_Paid_User_8 extends Set {
 
 			System.out.println("chat window does not open");
 			}
-		}
+		
 				catch(NoSuchElementException NCP) {
 					
 				}
