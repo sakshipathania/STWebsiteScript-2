@@ -72,7 +72,7 @@ public class pdp_Facebook_Login_Paid_User_15 extends Set {
 		Thread.sleep(3000);
 		log.info("It's opening the website URL");
 		
-		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
+		 WebElement fb_email = driver.findElement(By.xpath("//*[@id='email']"));
 		 Thread.sleep(2000);
 		    fb_email.sendKeys("sumit.kumar@slidetech.in");
 		    Thread.sleep(2000);
