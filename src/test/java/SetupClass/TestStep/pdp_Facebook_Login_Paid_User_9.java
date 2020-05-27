@@ -64,11 +64,13 @@ public class pdp_Facebook_Login_Paid_User_9 extends Set {
 
 	@Then("^User click on sign in with facebook button ix$")
 	public void user_click_on_sign_in_with_facebook_button_ix() throws Throwable {
-
-		WebElement fb_log = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='maincontent']/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/a']")));
+               try {
+		WebElement fb_log = driver.findElement(By.xpath("//*[@id='maincontent']/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/a']"));
 		Thread.sleep(2000);
 				fb_log.click();	       
 		log.info("It's opening the website URL");
+	       } catch (NoSuchElementException NP) { 
+	       }
 					       
 		
 		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
