@@ -67,7 +67,7 @@ public class pdp_Email_Login_Correct_Data_Paid_User_8 extends Set {
 	public void user_login_with_correct_details_viii() throws Throwable {
 		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 		Thread.sleep(2000);
-		username.sendKeys("sakshi.pathania@slideteam.in");
+		username.sendKeys("sakshi.pathania@slidetech.in");
 		Thread.sleep(2000);
 		
 		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
