@@ -51,7 +51,7 @@ public class pdp_Email_Login_Incorrect_Data_Paid_User_7 extends Set{
 	@Then("^User click on Download button to download the product vii$")
 	public void user_click_on_Download_button_to_download_the_product_vii() throws Throwable {
 	    
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
@@ -131,7 +131,7 @@ public class pdp_Email_Login_Incorrect_Data_Paid_User_7 extends Set{
 	public void user_download_the_product_vii() throws Throwable {
 	   
 		   
-				WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+				WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 				Thread.sleep(2000);
 				download_btn_pdp_fp.click();
 				Thread.sleep(2000);
