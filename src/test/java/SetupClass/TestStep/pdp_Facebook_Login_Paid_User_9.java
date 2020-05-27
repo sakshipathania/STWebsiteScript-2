@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Facebook_Login_Paid_User_9 extends Set {
 
-	WebDriverWait wait = new WebDriverWait(driver,30);
+	WebDriverWait wait = new WebDriverWait(driver,80);
 	
 	@Given("^user is already on pdp page CD ix$")
 	public void user_is_already_on_pdp_page_CD_ix() throws Throwable {
@@ -73,15 +73,15 @@ public class pdp_Facebook_Login_Paid_User_9 extends Set {
 	       }
 					       
 		
-		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#email")));
+		 WebElement fb_email = driver.findElement(By.xpath("//*[@id='email']"));
 		 Thread.sleep(2000);
 		    fb_email.sendKeys("sumit.kumar@slidetech.in");
 		    Thread.sleep(2000);
-		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#pass")));
+		    WebElement fb_pass = driver.findElement(By.xpath("//*[@id='pass']"));
 		    Thread.sleep(2000);
 		    fb_pass.sendKeys("redhat2090");
 		    Thread.sleep(2000);
-		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#loginbutton")));
+		    WebElement fb_login_btn=driver.findElement(By.cssSelector("#loginbutton"));
 		    Thread.sleep(2000);
 		    fb_login_btn.click();
 		    Thread.sleep(2000);
