@@ -12,7 +12,7 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
 public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
-	WebDriverWait wait = new WebDriverWait(driver,50);
+	WebDriverWait wait = new WebDriverWait(driver,80);
 	
 	@Given("^user is already on PDP Page NA xiii$")
 	public void user_is_already_on_PDP_Page_NA_xiii() throws Throwable {
@@ -63,21 +63,25 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 	}
 
 	@Then("^user enter incorrect details to login xiii$")
+	try {
 	public void user_enter_incorrect_details_to_login_xiii() throws Throwable {
 		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
 		Thread.sleep(2000);
 		username.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
 		Thread.sleep(2000);
-		
+	} catch (catch (NoSuchElementException PN) { }
+		try {
 		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		Thread.sleep(2000);
 		password.sendKeys("jhjhddhjdhdfhfhfh");
 		Thread.sleep(2000);
-		
+		} catch(catch (NoSuchElementException N) { }
+			try {
 		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='send2']")));
 		Thread.sleep(2000);
 		login_btn.click();
 		Thread.sleep(2000);
+			} catch (NoSuchElementException P) { }
 	}
 
 	@Then("^error message is displayed xiii$")
