@@ -19,12 +19,6 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 		
 		driver.get("https://www.slideteam.net/papa-johns-company-profile-overview-financials-and-statistics-from-2014-2018.html");
 		Thread.sleep(3000);
-		
-	}
-
-	@Then("^User click on Download button to download the product xiii$")
-	public void user_click_on_Download_button_to_download_the_product_xiii() throws Throwable {
-		Thread.sleep(1000);
 		try {
 			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
 			if(iframe.isDisplayed()) {
@@ -50,6 +44,12 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 				catch(NoSuchElementException NCP) {
 					
 				}
+		Thread.sleep(1000);
+	}
+
+	@Then("^User click on Download button to download the product xiii$")
+	public void user_click_on_Download_button_to_download_the_product_xiii() throws Throwable {
+		driver.get("https://www.slideteam.net/information-technology-gantt-chart.html");
 		Thread.sleep(1000);
 		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
 		Thread.sleep(2000);
