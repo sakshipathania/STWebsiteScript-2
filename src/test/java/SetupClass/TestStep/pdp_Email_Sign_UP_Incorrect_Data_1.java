@@ -54,7 +54,7 @@ public class pdp_Email_Sign_UP_Incorrect_Data_1 extends Set {
 	@Then("^User click on Download button to download the product i$")
 	public void user_click_on_Download_button_to_download_the_product_i() throws Throwable {
 	   
-		WebElement download_btn_pdp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		WebElement download_btn_pdp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp.click();
 		Thread.sleep(2000);
