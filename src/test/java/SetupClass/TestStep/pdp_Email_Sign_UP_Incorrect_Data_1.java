@@ -24,7 +24,31 @@ public class pdp_Email_Sign_UP_Incorrect_Data_1 extends Set {
 	   
 		driver.get("https://www.slideteam.net/technology-powerpoint-templates/private-public-cloud-computing/0115-big-data-icon-set-data-analytics-icon-set-cloud-computing-networking-funnel-ppt-slide.html");
 		Thread.sleep(2000);
-	    
+	    try {
+			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
+			if(iframe.isDisplayed()) {
+				driver.switchTo().frame(iframe);   
+				 Actions act = new Actions(driver);
+				 act.moveToElement(driver.findElement(By.cssSelector("#title .icon-minimize"))).build().perform();
+				 Thread.sleep(2000);
+					WebElement chat1=driver.findElement(By.cssSelector("#title .icon-minimize"));
+					 Thread.sleep(1000);
+						chat1.click();
+						 Thread.sleep(1000);
+						 driver.switchTo().defaultContent();
+						 Thread.sleep(1000);
+						 driver.switchTo().parentFrame();
+					 Thread.sleep(1000);
+			}
+			else {
+				
+
+			System.out.println("chat window does not open");
+			}
+		}
+				catch(NoSuchElementException NCP) {
+					
+				}
 	}
 
 	@Then("^User click on Download button to download the product i$")
@@ -202,36 +226,12 @@ public class pdp_Email_Sign_UP_Incorrect_Data_1 extends Set {
 
 	@Then("^user downloads a free product i$")
 	public void user_downloads_a_free_product_i() throws Throwable {
-	   
+	      
 		 
 		driver.findElement(By.cssSelector("li.product:nth-child(1) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
 		Thread.sleep(3000);
-		try {
-			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
-			if(iframe.isDisplayed()) {
-				driver.switchTo().frame(iframe);   
-				 Actions act = new Actions(driver);
-				 act.moveToElement(driver.findElement(By.cssSelector("#title .icon-minimize"))).build().perform();
-				 Thread.sleep(2000);
-					WebElement chat1=driver.findElement(By.cssSelector("#title .icon-minimize"));
-					 Thread.sleep(1000);
-						chat1.click();
-						 Thread.sleep(1000);
-						 driver.switchTo().defaultContent();
-						 Thread.sleep(1000);
-						 driver.switchTo().parentFrame();
-					 Thread.sleep(1000);
-			}
-			else {
-				
-
-			System.out.println("chat window does not open");
-			}
-		}
-				catch(NoSuchElementException NCP) {
-					
-				}
-		Thread.sleep(1000);
+		
+		//Thread.sleep(1000);
 		driver.findElement(By.cssSelector("#clicking")).click();
 		Thread.sleep(3000);
 	   driver.get("https://www.slideteam.net/");
@@ -271,7 +271,7 @@ try {
 			System.out.println("chat window does not open");
 			}
 		}
-				catch(NoSuchElementException NCP) {
+				catch(NoSuchElementException NP) {
 					
 				}
 
