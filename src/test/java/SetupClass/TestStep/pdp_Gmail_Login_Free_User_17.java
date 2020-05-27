@@ -19,10 +19,6 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 	public void user_is_already_on_pdp_page_FP_xvii() throws Throwable {
 		driver.get("https://www.slideteam.net/bar-graphs-and-pie-charts-sale-business-powerpoint-templates-themes.html");
 		Thread.sleep(3000);
-	}
-
-	@Then("^User click on Download button to download the product xvii$")
-	public void user_click_on_Download_button_to_download_the_product_xvii() throws Throwable {
 		try {
 			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
 			if(iframe.isDisplayed()) {
@@ -49,7 +45,12 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 					
 				}
 		Thread.sleep(1000);
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+	}
+
+	@Then("^User click on Download button to download the product xvii$")
+	public void user_click_on_Download_button_to_download_the_product_xvii() throws Throwable {
+		
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(4000);
@@ -113,33 +114,8 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 
 	@Then("^user download the product xvii$")
 	public void user_download_the_product_xvii() throws Throwable {
-		try {
-			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
-			if(iframe.isDisplayed()) {
-				driver.switchTo().frame(iframe);   
-				 Actions act = new Actions(driver);
-				 act.moveToElement(driver.findElement(By.cssSelector("#title .icon-minimize"))).build().perform();
-				 Thread.sleep(2000);
-					WebElement chat1=driver.findElement(By.cssSelector("#title .icon-minimize"));
-					 Thread.sleep(1000);
-						chat1.click();
-						 Thread.sleep(1000);
-						 driver.switchTo().defaultContent();
-						 Thread.sleep(1000);
-						 driver.switchTo().parentFrame();
-					 Thread.sleep(1000);
-			}
-			else {
-				
-
-			System.out.println("chat window does not open");
-			}
-		}
-				catch(NoSuchElementException NCP) {
-					
-				}
-		Thread.sleep(1000);
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
