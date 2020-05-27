@@ -21,14 +21,6 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.get("https://www.slideteam.net/complete-powerpoint-decks-presentations/change-management-powerpoint-presentation-slides.html");
 		Thread.sleep(1000);
-
-	}
-
-	@Then("^User click on Download button to download the product xi$")
-	public void user_click_on_Download_button_to_download_the_product_xi() throws Throwable {
-	    // Write code here that turns the phrase above into concrete actions
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[@id='clicking']")));
-		Thread.sleep(2000);
 		try {
 			WebElement iframe = driver.findElement(By.id("livechat-full-view"));
 			if(iframe.isDisplayed()) {
@@ -55,6 +47,15 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 					
 				}
 		Thread.sleep(1000);
+
+	}
+
+	@Then("^User click on Download button to download the product xi$")
+	public void user_click_on_Download_button_to_download_the_product_xi() throws Throwable {
+	    // Write code here that turns the phrase above into concrete actions
+		WebElement download_btn_pdp_fp = driver.findElement(By.xpath("//button[@id='clicking']"));
+		Thread.sleep(2000);
+		
 		download_btn_pdp_fp.click();
 		Thread.sleep(4000);
 	 
