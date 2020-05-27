@@ -51,7 +51,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 	public void user_click_on_Download_button_to_download_the_product_xiii() throws Throwable {
 		driver.get("https://www.slideteam.net/information-technology-gantt-chart.html");
 		Thread.sleep(1000);
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
