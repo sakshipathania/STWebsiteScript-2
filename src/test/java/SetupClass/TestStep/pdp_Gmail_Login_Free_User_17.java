@@ -89,7 +89,7 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 			}
 		
 		Thread.sleep(4000);
-		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("identifierId")));
+		WebElement gmail_email = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#identifierId")));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("slidetech.qa@gmail.com");
 	    Thread.sleep(2000);
