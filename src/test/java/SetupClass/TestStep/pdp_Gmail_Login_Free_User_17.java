@@ -115,11 +115,16 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 	@Then("^user download the product xvii$")
 	public void user_download_the_product_xvii() throws Throwable {
 		
-		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
+		/*WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
+		driver.get("https://www.slideteam.net/");*/
+		driver.get("https://www.slideteam.net/prod-development-and-program-management.html");
+		driver.findElement(By.id("clicking")).click();
+		Thread.sleep(5000);
 		driver.get("https://www.slideteam.net/");
+		Thread.sleep(3000);
 	}
 
 	@Then("^user logout from website xvii$")
