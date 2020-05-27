@@ -71,7 +71,7 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 		    Thread.sleep(2000);
 		 gmail_btn.click();
 		   
-	   } catch(exception e ) { }
+	   } catch(NoSuchElementException NS) { }
 		
 		 Thread.sleep(3000);
 			try
