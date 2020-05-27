@@ -67,17 +67,17 @@ public class pdp_Email_Login_Correct_Data_Free_User_14 extends Set{
 
 	@Then("^user login with correct details xiv$")
 	public void user_login_with_correct_details_xiv() throws Throwable {
-		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
+		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
 		Thread.sleep(2000);
 		username.sendKeys("slideteam.qa@yahoo.com");
 		Thread.sleep(2000);
 		
-		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
+		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		Thread.sleep(2000);
 		password.sendKeys("123456");
 		Thread.sleep(2000);
 		
-		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.id("send2")));
+		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='send2']")));
 		Thread.sleep(2000);
 		login_btn.click();
 		Thread.sleep(2000);
