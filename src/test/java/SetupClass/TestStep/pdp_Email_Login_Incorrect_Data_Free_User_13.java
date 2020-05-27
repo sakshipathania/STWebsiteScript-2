@@ -64,7 +64,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^user enter incorrect details to login xiii$")
 	public void user_enter_incorrect_details_to_login_xiii() throws Throwable {
-		WebElement username = wait.until(ExpectedConditions.elementToBeClickabledriver.findElement(By.id("email"));
+		WebElement username = driver.findElement(By.id("email"));
 		Thread.sleep(2000);
 		username.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
 		Thread.sleep(2000);
