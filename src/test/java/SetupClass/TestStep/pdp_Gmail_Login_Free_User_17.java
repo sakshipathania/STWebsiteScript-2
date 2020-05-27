@@ -67,7 +67,7 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 	@Then("^User click on sign in with google button xvii$")
 	public void user_click_on_sign_in_with_google_button_xvii() throws Throwable {
 	   
-		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(text(),'Sign in with Google')]")));
+		 WebElement gmail_btn = driver.findElement(By.xpath("//a[contains(text(),'Sign in with Google')]"));
 		    Thread.sleep(2000);
 		 gmail_btn.click();
 		
