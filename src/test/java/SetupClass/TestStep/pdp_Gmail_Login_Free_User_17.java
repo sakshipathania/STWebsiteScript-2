@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Gmail_Login_Free_User_17 extends Set {
 	
-	WebDriverWait wait = new WebDriverWait(driver,50);
+	WebDriverWait wait = new WebDriverWait(driver,60);
 	
 	@Given("^user is already on pdp page FP xvii$")
 	public void user_is_already_on_pdp_page_FP_xvii() throws Throwable {
@@ -66,10 +66,12 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 
 	@Then("^User click on sign in with google button xvii$")
 	public void user_click_on_sign_in_with_google_button_xvii() throws Throwable {
-	   
+	   try{
 		 WebElement gmail_btn = driver.findElement(By.xpath("//a[@class='btn btn-block btn-social btn-google social-btn']"));
 		    Thread.sleep(2000);
 		 gmail_btn.click();
+		   
+	   } catch(exception e ) { }
 		
 		 Thread.sleep(3000);
 			try
