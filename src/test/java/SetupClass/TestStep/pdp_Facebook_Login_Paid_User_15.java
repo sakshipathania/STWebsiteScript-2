@@ -94,13 +94,39 @@ public class pdp_Facebook_Login_Paid_User_15 extends Set {
 
 	@Then("^user download the product xv$")
 	public void user_download_the_product_xv() throws Throwable {
-	    Thread.sleep(1000);
+	   /* Thread.sleep(1000);
               
 		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
-		driver.get("https://www.slideteam.net/");
+		driver.get("https://www.slideteam.net/");*/
+		Thread.sleep(2000);
+		Thread.sleep(2000);
+		driver.findElement(By.cssSelector("li.product:nth-child(4) > div:nth-child(1) > div:nth-child(2) > strong:nth-child(1) > span:nth-child(1) > a:nth-child(1)")).click();
+		Thread.sleep(3000);
+		
+		driver.findElement(By.cssSelector("#clicking")).click();
+		Thread.sleep(3000);
+		
+		driver.navigate().refresh();
+		
+		// logout
+		Thread.sleep(2000);
+		try {
+			WebElement logout = driver.findElement(By.xpath("//a[contains(text(),'Sign Out')]"));
+			if (logout.isEnabled()) {
+				Thread.sleep(1000);
+				logout.click();
+				Thread.sleep(8000);
+				driver.navigate().refresh();
+				Thread.sleep(2000);
+			}
+		} catch (NoSuchElementException Ext) {
+
+		}
+		
+	
 	}
 
 	@Then("^user logout from website xv$")
