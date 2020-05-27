@@ -147,7 +147,7 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 					
 				}
 		Thread.sleep(1000);
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
