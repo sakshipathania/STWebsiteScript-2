@@ -64,7 +64,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^user enter incorrect details to login xiii$")
 	public void user_enter_incorrect_details_to_login_xiii() throws Throwable {
-		WebElement username = driver.findElement(By.xpath("//*[@id='email']"));
+		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 		Thread.sleep(2000);
 		username.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
 		Thread.sleep(2000);
@@ -83,7 +83,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 	@Then("^error message is displayed xiii$")
 	public void error_message_is_displayed_xiii() throws Throwable {
 		
-		WebElement username = driver.findElement(By.id("email"));
+		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 		Thread.sleep(2000);
 		username.clear();
 		Thread.sleep(2000);
@@ -99,7 +99,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^user login with correct details xiii$")
 	public void user_login_with_correct_details_xiii() throws Throwable {
-		WebElement username = driver.findElement(By.id("email"));
+		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
 		Thread.sleep(2000);
 		username.sendKeys("slideteam.qa@yahoo.com");
 		Thread.sleep(2000);
