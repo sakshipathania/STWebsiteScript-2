@@ -76,7 +76,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 		Thread.sleep(2000);
 		password.sendKeys("jhjhddhjdhdfhfhfh");
 		Thread.sleep(2000);
-		} catch(catch (NoSuchElementException N) { }
+		} catch (NoSuchElementException N) { }
 			try {
 		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='send2']")));
 		Thread.sleep(2000);
