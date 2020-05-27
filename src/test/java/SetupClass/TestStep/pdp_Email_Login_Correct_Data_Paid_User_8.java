@@ -51,7 +51,7 @@ public class pdp_Email_Login_Correct_Data_Paid_User_8 extends Set {
 	public void user_click_on_Download_button_to_download_the_product_viii() throws Throwable {
 	  
 		Thread.sleep(1000);
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
@@ -91,8 +91,8 @@ public class pdp_Email_Login_Correct_Data_Paid_User_8 extends Set {
 	@Then("^user download the product viii$")
 	public void user_download_the_product_viii() throws Throwable {
 	        driver.get("https://www.slideteam.net/timeline-display-style-6-powerpoint-presentation-slides.html");
-		Thread.sleep(2000);
-		WebElement download_btn_pdp_fp = wait.until(ExpectedConditions.elementToBeClickable(By.id("clicking")));
+		Thread.sleep(1000);
+		WebElement download_btn_pdp_fp = driver.findElement(By.id("clicking"));
 		Thread.sleep(2000);
 		download_btn_pdp_fp.click();
 		Thread.sleep(2000);
