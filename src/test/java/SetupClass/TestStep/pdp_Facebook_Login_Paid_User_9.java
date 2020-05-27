@@ -73,15 +73,15 @@ public class pdp_Facebook_Login_Paid_User_9 extends Set {
 	       }
 					       
 		
-		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.id("email")));
+		 WebElement fb_email = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#email")));
 		 Thread.sleep(2000);
 		    fb_email.sendKeys("sumit.kumar@slidetech.in");
 		    Thread.sleep(2000);
-		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
+		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#pass")));
 		    Thread.sleep(2000);
 		    fb_pass.sendKeys("redhat2090");
 		    Thread.sleep(2000);
-		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.id("loginbutton")));
+		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#loginbutton")));
 		    Thread.sleep(2000);
 		    fb_login_btn.click();
 		    Thread.sleep(2000);
