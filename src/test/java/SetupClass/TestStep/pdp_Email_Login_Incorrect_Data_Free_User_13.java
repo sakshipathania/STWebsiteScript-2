@@ -70,7 +70,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 		Thread.sleep(2000);
 		username.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
 		Thread.sleep(2000);
-	} catch (catch (NoSuchElementException PN) { }
+	} catch (NoSuchElementException PN) { }
 		try {
 		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		Thread.sleep(2000);
