@@ -69,10 +69,11 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 
 	@Then("^User click on sign in with google button xi$")
 	public void user_click_on_sign_in_with_google_button_xi() throws Throwable {
-	  
+	  try {
 		 WebElement gmail_btn =driver.findElement(By.xpath("//a[@class='btn btn-block btn-social btn-google social-btn']"));
 		    Thread.sleep(2800);
 		 gmail_btn.click();
+	  } catch (NoSuchElementException GCP) { }
 		
 		 Thread.sleep(3000);
 			try
