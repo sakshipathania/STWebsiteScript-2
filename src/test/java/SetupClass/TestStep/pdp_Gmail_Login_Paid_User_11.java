@@ -92,10 +92,13 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 			
 		 
 		Thread.sleep(4500);
+		try {
 		WebElement gmail_email = driver.findElement(By.cssSelector("#identifierId"));
 		Thread.sleep(2000);
 	    gmail_email.sendKeys("sakshi.pathania@slidetech.in");
 	    Thread.sleep(2000);
+		}
+		catch (NoSuchElementException GE) { }
 	    WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > span:nth-child(3) > span:nth-child(1)"));
 	    Thread.sleep(2000);
 	    next_1.click();
