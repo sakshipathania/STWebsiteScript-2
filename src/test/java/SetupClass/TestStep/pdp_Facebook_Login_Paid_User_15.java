@@ -13,7 +13,7 @@ import cucumber.api.java.en.Then;
 
 public class pdp_Facebook_Login_Paid_User_15 extends Set {
 	
-	WebDriverWait wait = new WebDriverWait(driver,60);
+	WebDriverWait wait = new WebDriverWait(driver,80);
 	
 	@Given("^user is already on pdp page FP xv$")
 	public void user_is_already_on_pdp_page_FP_xv() throws Throwable {
@@ -75,19 +75,24 @@ public class pdp_Facebook_Login_Paid_User_15 extends Set {
 	    { 
 	    }
 		  
-		
+		try {
 		 WebElement fb_email = driver.findElement(By.xpath("//*[@id='email']"));
 		 Thread.sleep(2000);
 		    fb_email.sendKeys("sumit.kumar@slidetech.in");
 		    Thread.sleep(2000);
-		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.id("pass")));
+		} catch (NoSuchElementException NP) { }
+		try {
+		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		    Thread.sleep(2000);
 		    fb_pass.sendKeys("redhat2090");
 		    Thread.sleep(2000);
-		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.id("loginbutton")));
+		} catch (NoSuchElementException PN) { }
+		try {
+		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='loginbutton']")));
 		    Thread.sleep(2000);
 		    fb_login_btn.click();
 		    Thread.sleep(2000);
+		} catch (NoSuchElementException lo) { }
 	}
 
 	@Then("^user will be redirected to same page  xv$")
