@@ -101,11 +101,7 @@ public class pdp_Email_Login_Correct_Data_Paid_User_8 extends Set {
 
 	@Then("^user logout from website viii$")
 	public void user_logout_from_website_viii() throws Throwable {
-	  Thread.sleep(3000);
-	   
-	 driver.findElement(By.xpath("//a[contains(.,'Sign Out')]")).click();
-	 Thread.sleep(3000);
-		/*Thread.sleep(1000);
+	  Thread.sleep(1000);
 		try {
 			WebElement logout = driver.findElement(By.cssSelector("//a[contains(text(),'Sign Out')]"));
 			if (logout.isEnabled()) {
@@ -116,7 +112,7 @@ public class pdp_Email_Login_Correct_Data_Paid_User_8 extends Set {
 			}
 		} catch (NoSuchElementException Ext) {
 
-		}*/
+		}
 		
 	}
 }
