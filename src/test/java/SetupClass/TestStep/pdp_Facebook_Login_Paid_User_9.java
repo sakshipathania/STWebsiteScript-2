@@ -65,7 +65,7 @@ public class pdp_Facebook_Login_Paid_User_9 extends Set {
 	@Then("^User click on sign in with facebook button ix$")
 	public void user_click_on_sign_in_with_facebook_button_ix() throws Throwable {
 
-		driver.findElement(By.xpath("//a[contains(text(),'Sign in with Facebook')]")).click();
+		driver.findElement(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']"));
 		Thread.sleep(2000);
 		log.info("It's opening the website URL");
 		
