@@ -65,13 +65,13 @@ public class pdp_Gmail_Login_Free_User_17 extends Set {
 	}
 
 	@Then("^User click on sign in with google button xvii$")
-	public void user_click_on_sign_in_with_google_button_xvii() throws Throwable {
-	   try{
-		 WebElement gmail_btn = driver.findElement(By.xpath("//a[@class='btn btn-block btn-social btn-google social-btn']"));
+	public void user_click_on_sign_in_with_google_button_xvii() throws InterruptedException  {
+	   
+		 WebElement gmail_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[2]/a")));
 		    Thread.sleep(2000);
 		 gmail_btn.click();
 		   
-	   } catch(NoSuchElementException NS) { }
+	
 		
 		 Thread.sleep(3000);
 			try
