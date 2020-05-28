@@ -11,7 +11,7 @@ import SetupClass.Set;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 
-public class pdp_Facebook_Login_Paid_User_15 extends Set {
+public class pdp_Facebook_Login_Free_User_15 extends Set {
 	
 	WebDriverWait wait = new WebDriverWait(driver,80);
 	
@@ -64,35 +64,32 @@ public class pdp_Facebook_Login_Paid_User_15 extends Set {
 	}
 
 	@Then("^User click on sign in with facebook button xv$")
-	public void user_click_on_sign_in_with_facebook_button_xv() throws Throwable {
-	    try {
-		 WebElement fb_login_link = driver.findElement(By.xpath("//*[@id='maincontent']/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/a"));
-		 Thread.sleep(2000);
-		 fb_login_link.click();
+	public void user_click_on_sign_in_with_facebook_button_xv() throws InterruptedException {
+	    
+		 driver.get("https://www.slideteam.net/");
+		Thread.sleep(4000);
+		WebElement fb_link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']")));
+		Thread.sleep(2000);
+	    fb_link.click();
 		Thread.sleep(3000);
-		log.info("It's opening the website URL");
-	    } catch (NoSuchElementException NP)
-	    { 
-	    }
+	  
 		  
-		try {
+	
 		 WebElement fb_email = driver.findElement(By.xpath("//*[@id='email']"));
 		 Thread.sleep(2000);
-		    fb_email.sendKeys("sumit.kumar@slidetech.in");
+		    fb_email.sendKeys("slidetech.qa@gmail.com");
 		    Thread.sleep(2000);
-		} catch (NoSuchElementException NP) { }
-		try {
+		
 		    WebElement fb_pass = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		    Thread.sleep(2000);
-		    fb_pass.sendKeys("redhat2090");
+		    fb_pass.sendKeys("himanshi@123");
 		    Thread.sleep(2000);
-		} catch (NoSuchElementException PN) { }
-		try {
+		
 		    WebElement fb_login_btn=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='loginbutton']")));
 		    Thread.sleep(2000);
 		    fb_login_btn.click();
 		    Thread.sleep(2000);
-		} catch (NoSuchElementException lo) { }
+		
 	}
 
 	@Then("^user will be redirected to same page  xv$")
