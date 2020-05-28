@@ -66,19 +66,19 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	public void user_enter_incorrect_details_to_login_xiii() throws Throwable {
 		
-		WebElement username =  driver.findElement(By.xpath("//*[@id='email']"));
+		WebElement username1 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[2]/div/input")));
 		Thread.sleep(2000);
-		username.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
+		username1.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
 		Thread.sleep(2000);
 	
-		WebElement password =  driver.findElement(By.xpath("//*[@id='pass']"));
+		WebElement password1 =wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[3]/div/input")));
 		Thread.sleep(2000);
-		password.sendKeys("jhjhddhjdhdfhfhfh");
+		password1.sendKeys("jhjhddhjdhdfhfhfh");
 		Thread.sleep(2000);
 		
-		WebElement login_btn =  driver.findElement(By.xpath("//*[@id='send2']"));
+		WebElement login_btn1 =  driver.findElement(By.xpath("//*[@id='send2']"));
 		Thread.sleep(2000);
-		login_btn.click();
+		login_btn1.click();
 		Thread.sleep(2000);
 			
 	}
@@ -86,14 +86,14 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 	@Then("^error message is displayed xiii$")
 	public void error_message_is_displayed_xiii() throws Throwable {
 		
-		WebElement username =  driver.findElement(By.xpath("//*[@id='email']"));
+		WebElement username2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[2]/div/input")));
 		Thread.sleep(2000);
-		username.clear();
+		username2.clear();
 		Thread.sleep(2000);
 		
-		WebElement password =  driver.findElement(By.xpath("//*[@id='pass']"));
+		WebElement password2 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[3]/div/input")));
 		Thread.sleep(2000);
-		password.clear();
+		password2.clear();
 		Thread.sleep(2000);
 	   
 		driver.navigate().refresh();
@@ -102,17 +102,17 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^user login with correct details xiii$")
 	public void user_login_with_correct_details_xiii() throws Throwable {
-		WebElement username =  driver.findElement(By.xpath("//*[@id='email']"));
+		WebElement username3 = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[2]/div/input")));
 		Thread.sleep(2000);
-		username.sendKeys("himanshi@test.com");
-		Thread.sleep(2000);
-		
-		WebElement password =  driver.findElement(By.xpath("//*[@id='pass']"));
-		Thread.sleep(2000);
-		password.sendKeys("123456");
+		username3.sendKeys("himanshi@test.com");
 		Thread.sleep(2000);
 		
-		WebElement login_btn =  driver.findElement(By.xpath("//*[@id='send2']"));
+		WebElement password3 =  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/form/fieldset/div[3]/div/input")));
+		Thread.sleep(2000);
+		password3.sendKeys("123456");
+		Thread.sleep(2000);
+		
+		WebElement login_btn33 =  driver.findElement(By.xpath("//*[@id='send2']"));
 		Thread.sleep(2000);
 		login_btn.click();
 		Thread.sleep(2000);
