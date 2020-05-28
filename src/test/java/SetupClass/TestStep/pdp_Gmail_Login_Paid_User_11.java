@@ -69,11 +69,11 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 
 	@Then("^User click on sign in with google button xi$")
 	public void user_click_on_sign_in_with_google_button_xi() throws Throwable {
-	  try {
+	  
 		 WebElement gmail_btn =driver.findElement(By.xpath("//a[@class='btn btn-block btn-social btn-google social-btn']"));
 		    Thread.sleep(2800);
 		 gmail_btn.click();
-	  } catch (NoSuchElementException GCP) { }
+	  
 		
 		 Thread.sleep(3000);
 			try
@@ -92,17 +92,17 @@ public class pdp_Gmail_Login_Paid_User_11 extends Set {
 			
 		 
 		Thread.sleep(4500);
-		try {
-		WebElement gmail_email = driver.findElement(By.cssSelector("#identifierId"));
-		Thread.sleep(2000);
+		
+	    WebElement gmail_email = driver.findElement(By.xpath("//*[@id='identifierId']"));
+	    Thread.sleep(2000);
 	    gmail_email.sendKeys("sakshi.pathania@slidetech.in");
 	    Thread.sleep(2000);
-		}
-		catch (NoSuchElementException GE) { }
+		
 	    WebElement next_1 = driver.findElement(By.cssSelector("#identifierNext > span:nth-child(3) > span:nth-child(1)"));
 	    Thread.sleep(2000);
 	    next_1.click();
 	    Thread.sleep(2000);
+	    
 	    WebElement gmail_pass = driver.findElement(By.cssSelector(".I0VJ4d > div:nth-child(1) > input:nth-child(1)"));
 	    Thread.sleep(2000);
 	    gmail_pass.sendKeys("Qwerty@1");
