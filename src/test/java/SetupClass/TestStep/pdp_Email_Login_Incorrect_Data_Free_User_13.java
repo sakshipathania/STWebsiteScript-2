@@ -107,7 +107,7 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 		username.sendKeys("himanshi@test.com");
 		Thread.sleep(2000);
 		
-		WebElement password =  driver.findElemen(By.xpath("//*[@id='pass']")));
+		WebElement password =  driver.findElement(By.xpath("//*[@id='pass']"));
 		Thread.sleep(2000);
 		password.sendKeys("123456");
 		Thread.sleep(2000);
