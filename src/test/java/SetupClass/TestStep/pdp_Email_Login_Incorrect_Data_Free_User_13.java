@@ -112,9 +112,9 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 		password3.sendKeys("123456");
 		Thread.sleep(2000);
 		
-		WebElement login_btn33 =  driver.findElement(By.xpath("//*[@id='send2']"));
+		WebElement login_btn3 =  driver.findElement(By.xpath("//*[@id='send2']"));
 		Thread.sleep(2000);
-		login_btn.click();
+		login_btn3.click();
 		Thread.sleep(2000);
 		
 		
