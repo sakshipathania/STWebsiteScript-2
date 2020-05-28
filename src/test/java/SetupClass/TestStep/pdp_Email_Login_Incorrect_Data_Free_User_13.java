@@ -65,35 +65,33 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 	@Then("^user enter incorrect details to login xiii$")
 
 	public void user_enter_incorrect_details_to_login_xiii() throws Throwable {
-		try {
-		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
+		
+		WebElement username =  driver.findElement(By.xpath("//*[@id='email']"));
 		Thread.sleep(2000);
 		username.sendKeys("*&#@Y #RHFGHJEGFYUJEh");
 		Thread.sleep(2000);
-	} catch (NoSuchElementException PN) { }
-		try {
-		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
+	
+		WebElement password =  driver.findElement(By.xpath("//*[@id='pass']"));
 		Thread.sleep(2000);
 		password.sendKeys("jhjhddhjdhdfhfhfh");
 		Thread.sleep(2000);
-		} catch (NoSuchElementException N) { }
-			try {
-		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='send2']")));
+		
+		WebElement login_btn =  driver.findElement(By.xpath("//*[@id='send2']"));
 		Thread.sleep(2000);
 		login_btn.click();
 		Thread.sleep(2000);
-			} catch (NoSuchElementException P) { }
+			
 	}
 
 	@Then("^error message is displayed xiii$")
 	public void error_message_is_displayed_xiii() throws Throwable {
 		
-		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
+		WebElement username =  driver.findElement(By.xpath("//*[@id='email']"));
 		Thread.sleep(2000);
 		username.clear();
 		Thread.sleep(2000);
 		
-		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
+		WebElement password =  driver.findElement(By.xpath("//*[@id='pass']"));
 		Thread.sleep(2000);
 		password.clear();
 		Thread.sleep(2000);
@@ -104,17 +102,17 @@ public class pdp_Email_Login_Incorrect_Data_Free_User_13 extends Set {
 
 	@Then("^user login with correct details xiii$")
 	public void user_login_with_correct_details_xiii() throws Throwable {
-		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
+		WebElement username =  driver.findElement(By.xpath("//*[@id='email']"));
 		Thread.sleep(2000);
-		username.sendKeys("slideteam.qa@yahoo.com");
+		username.sendKeys("himanshi@test.com");
 		Thread.sleep(2000);
 		
-		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
+		WebElement password =  driver.findElemen(By.xpath("//*[@id='pass']")));
 		Thread.sleep(2000);
 		password.sendKeys("123456");
 		Thread.sleep(2000);
 		
-		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='send2']")));
+		WebElement login_btn =  driver.findElement(By.xpath("//*[@id='send2']"));
 		Thread.sleep(2000);
 		login_btn.click();
 		Thread.sleep(2000);
