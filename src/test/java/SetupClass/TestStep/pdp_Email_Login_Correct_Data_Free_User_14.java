@@ -67,24 +67,24 @@ public class pdp_Email_Login_Correct_Data_Free_User_14 extends Set{
 
 	@Then("^user login with correct details xiv$")
 	public void user_login_with_correct_details_xiv() throws Throwable {
-		try {
+		
 		WebElement username = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
 		Thread.sleep(2000);
-		username.sendKeys("slideteam.qa@yahoo.com");
+		username.sendKeys("himanshi@test.com");
 		Thread.sleep(2000);
-		} catch (NoSuchElementException PN) { }
-		try {
+		
+		
 		WebElement password = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		Thread.sleep(2000);
 		password.sendKeys("123456");
 		Thread.sleep(2000);
-		} catch (NoSuchElementException N) { }
-		try {
+		
+		
 		WebElement login_btn = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='send2']")));
 		Thread.sleep(2000);
 		login_btn.click();
 		Thread.sleep(2000);
-		}catch (NoSuchElementException P) { }
+		
 	}
 
 	@Then("^user is reedirected to same pdp page and download the product xiv$")
