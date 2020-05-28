@@ -68,7 +68,7 @@ public class pdp_Facebook_Login_Free_User_15 extends Set {
 	    
 		 driver.get("https://www.slideteam.net/");
 		Thread.sleep(4000);
-		WebElement fb_link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']")));
+		WebElement fb_link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("/html/body/div[2]/main/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/a")));
 		Thread.sleep(2000);
 	    fb_link.click();
 		Thread.sleep(3000);
