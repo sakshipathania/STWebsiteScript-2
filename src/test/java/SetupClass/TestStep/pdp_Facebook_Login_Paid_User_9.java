@@ -64,24 +64,22 @@ public class pdp_Facebook_Login_Paid_User_9 extends Set {
 
 	@Then("^User click on sign in with facebook button ix$")
 	public void user_click_on_sign_in_with_facebook_button_ix() throws Throwable {
-               try {
-		WebElement fb_log = driver.findElement(By.xpath("//*[@id='maincontent']/div[2]/div/div[2]/div[2]/div[2]/div/div/div/div[1]/a']"));
+               driver.get("https://www.slideteam.net/");
+		Thread.sleep(4000);
+		WebElement fb_link = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[@class='btn btn-block btn-social btn-facebook social-btn']")));
 		Thread.sleep(2000);
-				fb_log.click();	       
-		log.info("It's opening the website URL");
-	       } catch (NoSuchElementException NP) { 
-	       }
-					       
+	    fb_link.click();
+		Thread.sleep(3000);
 		
-		 WebElement fb_email = driver.findElement(By.xpath("//*[@id='email']"));
+		 WebElement fb_email =  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='email']")));
 		 Thread.sleep(2000);
-		    fb_email.sendKeys("sumit.kumar@slidetech.in");
+		    fb_email.sendKeys("Sakshi.pathania@slidetech.in");
 		    Thread.sleep(2000);
-		    WebElement fb_pass = driver.findElement(By.xpath("//*[@id='pass']"));
+		    WebElement fb_pass =  wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='pass']")));
 		    Thread.sleep(2000);
-		    fb_pass.sendKeys("redhat2090");
+		    fb_pass.sendKeys("Qwerty@1");
 		    Thread.sleep(2000);
-		    WebElement fb_login_btn=driver.findElement(By.cssSelector("#loginbutton"));
+		    WebElement fb_login_btn= wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#loginbutton")));
 		    Thread.sleep(2000);
 		    fb_login_btn.click();
 		    Thread.sleep(2000);
